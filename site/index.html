@@ -2,78 +2,172 @@
 <html lang="en">
 <head>
 <meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Kente HQ</title>
-<meta name="description" content="Kente HQ builds focused software for small businesses: invoicing on WhatsApp, dental waitlists, creator brand deals, PR gifting and zoning alerts." />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<title>Kente HQ · Focused software for small businesses</title>
+<meta name="description" content="Kente HQ is a product studio in Ghana building focused software for small businesses: zoning alerts, WhatsApp invoicing, dental waitlists, creator brand deals and PR gifting." />
+<link rel="canonical" href="https://kentehq.com/" />
+<meta name="color-scheme" content="light dark" />
+<meta name="theme-color" content="#f6f6f4" media="(prefers-color-scheme: light)" />
+<meta name="theme-color" content="#121211" media="(prefers-color-scheme: dark)" />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="Kente HQ" />
+<meta property="og:url" content="https://kentehq.com/" />
+<meta property="og:title" content="Kente HQ · Focused software for small businesses" />
+<meta property="og:description" content="A product studio in Ghana. Five small products, each doing one job well, for customers worldwide." />
+<meta property="og:image" content="https://kentehq.com/og.png" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta property="og:image:alt" content="Kente HQ wordmark beside five woven kente strips in gold, green, red and blue." />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Kente HQ · Focused software for small businesses" />
+<meta name="twitter:description" content="A product studio in Ghana. Five small products, each doing one job well, for customers worldwide." />
+<meta name="twitter:image" content="https://kentehq.com/og.png" />
+<link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+<link rel="icon" href="/favicon.png" type="image/png" sizes="48x48" />
+<link rel="apple-touch-icon" href="/apple-touch-icon.png" />
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600&family=Instrument+Sans:wght@400;500;600&display=swap" />
-<style>
-/* Layout: one column of woven strips; each product is a strip of the cloth. */
-:root {
-  --bg: #f6f4ef; --fg: #1c1a16; --muted: #6b665c; --line: #dcd7cc;
-  --gold: #c99a1e; --green: #2f6b3f; --red: #a8322a; --ink: #1c1a16;
-  --display: "Fraunces", Georgia, "Times New Roman", serif;
-  --body: "Instrument Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
-  color-scheme: light;
-}
-@media (prefers-color-scheme: dark) {
-  :root { --bg: #15140f; --fg: #eeeae0; --muted: #a39d90; --line: #2f2c25; --gold: #e0b43c; --green: #6fb07f; --red: #d8655c; --ink: #eeeae0; color-scheme: dark; }
-}
-* { box-sizing: border-box; }
-body { margin: 0; background: var(--bg); color: var(--fg); font: 17px/1.6 var(--body); }
-.wrap { max-width: 980px; margin: 0 auto; padding-inline: 20px; }
-header { padding-block: 28px; display: flex; justify-content: space-between; align-items: center; gap: 16px; }
-.mark { font-family: var(--display); font-weight: 600; font-size: 22px; letter-spacing: -0.01em; }
-header a { color: var(--muted); text-decoration: none; font-size: 15px; }
-header a:hover { color: var(--fg); }
-.weave { height: 14px; border-radius: 2px; background:
-  repeating-linear-gradient(90deg, var(--gold) 0 28px, var(--green) 28px 40px, var(--gold) 40px 68px, var(--red) 68px 76px, var(--ink) 76px 84px); }
-.hero { padding-block: 56px 40px; }
-h1 { font-family: var(--display); font-weight: 400; font-size: clamp(2.2rem, 6vw, 3.6rem); line-height: 1.06; letter-spacing: -0.02em; margin: 0 0 18px; max-width: 18ch; text-wrap: balance; }
-.lede { color: var(--muted); max-width: 56ch; margin: 0; font-size: 18px; }
-.strips { list-style: none; padding: 0; margin: 24px 0 56px; border-top: 1px solid var(--line); }
-.strip { display: grid; grid-template-columns: 10px minmax(0, 1fr) auto; gap: 20px; align-items: start; padding-block: 24px; border-bottom: 1px solid var(--line); }
-.thread { align-self: stretch; border-radius: 2px; }
-.strip h2 { font-family: var(--display); font-weight: 600; font-size: 24px; margin: 0 0 4px; letter-spacing: -0.01em; }
-.strip p { margin: 0; color: var(--muted); max-width: 60ch; }
-.who { font-size: 13px; letter-spacing: 0.06em; text-transform: uppercase; color: var(--fg); margin-bottom: 6px; }
-.status { font-size: 13px; color: var(--muted); white-space: nowrap; padding-top: 6px; }
-.about { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 32px; padding-block: 8px 56px; }
-.about h3 { font-family: var(--display); font-weight: 600; font-size: 20px; margin: 0 0 8px; }
-.about p { margin: 0; color: var(--muted); }
-.addr { font-family: var(--body); font-weight: 600; color: var(--fg); user-select: all; }
-footer { border-top: 1px solid var(--line); padding-block: 24px 40px; display: flex; flex-wrap: wrap; gap: 8px 24px; color: var(--muted); font-size: 14px; }
-footer a { color: var(--muted); }
-a:focus-visible { outline: 2px solid var(--gold); outline-offset: 3px; }
-@media (max-width: 560px) { .strip { grid-template-columns: 8px minmax(0, 1fr); } .status { grid-column: 2; padding-top: 0; } }
-</style>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600&family=Instrument+Sans:wght@400;500;600&display=swap" />
+<link rel="stylesheet" href="/styles.css" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Organization","name":"Kente HQ","legalName":"Accidental Genius LTD","url":"https://kentehq.com/","logo":"https://kentehq.com/apple-touch-icon.png","email":"support@kentehq.com","address":{"@type":"PostalAddress","addressCountry":"GH"},"areaServed":"Worldwide"}
+</script>
 </head>
 <body>
+<a class="skip" href="#main">Skip to content</a>
+
+<!-- Strip patterns: one per product, shared by the hero cloth and the product cards. -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><defs>
+<pattern id="s-zoning" width="40" height="120" patternUnits="userSpaceOnUse"><rect width="40" height="120" fill="#d9a521"/><rect x="4" width="3" height="36" fill="#161512"/><rect x="12" width="3" height="36" fill="#1f7a4a"/><rect x="20" width="3" height="36" fill="#161512"/><rect x="28" width="3" height="36" fill="#1f7a4a"/><rect x="36" width="3" height="36" fill="#161512"/><rect y="36" width="40" height="4" fill="#161512"/><rect y="40" width="40" height="36" fill="#1f7a4a"/><rect x="9" y="46" width="22" height="24" fill="#b8352c"/><rect x="15" y="52" width="10" height="12" fill="#161512"/><rect y="76" width="40" height="4" fill="#161512"/><rect y="84" width="40" height="4" fill="#b8352c"/><rect y="92" width="40" height="4" fill="#161512"/><rect y="100" width="40" height="4" fill="#b8352c"/><rect y="108" width="40" height="4" fill="#161512"/><rect y="116" width="40" height="4" fill="#161512"/></pattern>
+<pattern id="s-invoices" width="40" height="120" patternUnits="userSpaceOnUse"><rect width="40" height="120" fill="#1f7a4a"/><rect x="4" width="3" height="36" fill="#161512"/><rect x="12" width="3" height="36" fill="#d9a521"/><rect x="20" width="3" height="36" fill="#161512"/><rect x="28" width="3" height="36" fill="#d9a521"/><rect x="36" width="3" height="36" fill="#161512"/><rect y="36" width="40" height="4" fill="#161512"/><rect y="40" width="40" height="36" fill="#d9a521"/><rect x="9" y="46" width="22" height="24" fill="#22508f"/><rect x="15" y="52" width="10" height="12" fill="#161512"/><rect y="76" width="40" height="4" fill="#161512"/><rect y="84" width="40" height="4" fill="#22508f"/><rect y="92" width="40" height="4" fill="#161512"/><rect y="100" width="40" height="4" fill="#22508f"/><rect y="108" width="40" height="4" fill="#161512"/><rect y="116" width="40" height="4" fill="#161512"/></pattern>
+<pattern id="s-dental" width="40" height="120" patternUnits="userSpaceOnUse"><rect width="40" height="120" fill="#b8352c"/><rect x="4" width="3" height="36" fill="#161512"/><rect x="12" width="3" height="36" fill="#d9a521"/><rect x="20" width="3" height="36" fill="#161512"/><rect x="28" width="3" height="36" fill="#d9a521"/><rect x="36" width="3" height="36" fill="#161512"/><rect y="36" width="40" height="4" fill="#161512"/><rect y="40" width="40" height="36" fill="#d9a521"/><rect x="9" y="46" width="22" height="24" fill="#1f7a4a"/><rect x="15" y="52" width="10" height="12" fill="#161512"/><rect y="76" width="40" height="4" fill="#161512"/><rect y="84" width="40" height="4" fill="#1f7a4a"/><rect y="92" width="40" height="4" fill="#161512"/><rect y="100" width="40" height="4" fill="#1f7a4a"/><rect y="108" width="40" height="4" fill="#161512"/><rect y="116" width="40" height="4" fill="#161512"/></pattern>
+<pattern id="s-creator" width="40" height="120" patternUnits="userSpaceOnUse"><rect width="40" height="120" fill="#22508f"/><rect x="4" width="3" height="36" fill="#161512"/><rect x="12" width="3" height="36" fill="#b8352c"/><rect x="20" width="3" height="36" fill="#161512"/><rect x="28" width="3" height="36" fill="#b8352c"/><rect x="36" width="3" height="36" fill="#161512"/><rect y="36" width="40" height="4" fill="#161512"/><rect y="40" width="40" height="36" fill="#b8352c"/><rect x="9" y="46" width="22" height="24" fill="#d9a521"/><rect x="15" y="52" width="10" height="12" fill="#161512"/><rect y="76" width="40" height="4" fill="#161512"/><rect y="84" width="40" height="4" fill="#d9a521"/><rect y="92" width="40" height="4" fill="#161512"/><rect y="100" width="40" height="4" fill="#d9a521"/><rect y="108" width="40" height="4" fill="#161512"/><rect y="116" width="40" height="4" fill="#161512"/></pattern>
+<pattern id="s-gifts" width="40" height="120" patternUnits="userSpaceOnUse"><rect width="40" height="120" fill="#d9a521"/><rect x="4" width="3" height="36" fill="#161512"/><rect x="12" width="3" height="36" fill="#22508f"/><rect x="20" width="3" height="36" fill="#161512"/><rect x="28" width="3" height="36" fill="#22508f"/><rect x="36" width="3" height="36" fill="#161512"/><rect y="36" width="40" height="4" fill="#161512"/><rect y="40" width="40" height="36" fill="#22508f"/><rect x="9" y="46" width="22" height="24" fill="#b8352c"/><rect x="15" y="52" width="10" height="12" fill="#161512"/><rect y="76" width="40" height="4" fill="#161512"/><rect y="84" width="40" height="4" fill="#b8352c"/><rect y="92" width="40" height="4" fill="#161512"/><rect y="100" width="40" height="4" fill="#b8352c"/><rect y="108" width="40" height="4" fill="#161512"/><rect y="116" width="40" height="4" fill="#161512"/></pattern>
+<pattern id="weft" width="3" height="3" patternUnits="userSpaceOnUse"><rect width="3" height="1" fill="#000" opacity=".14"/></pattern>
+</defs></svg>
+
 <div class="wrap">
-  <header><span class="mark">Kente HQ</span><a href="#contact">Contact</a></header>
-  <div class="weave" role="presentation"></div>
+  <header class="site-header">
+    <a class="brand" href="/" aria-label="Kente HQ home"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="3" y="2" width="5" height="20" rx="1" fill="#d9a521"/><rect x="9.5" y="2" width="5" height="20" rx="1" fill="#1f7a4a"/><rect x="16" y="2" width="5" height="20" rx="1" fill="#b8352c"/><rect x="1" y="9.5" width="22" height="5" rx="1" fill="currentColor"/><rect x="9.5" y="9" width="5" height="6" fill="#1f7a4a"/></svg>Kente HQ</a>
+    <nav aria-label="Main"><ul class="nav">
+      <li><a href="#products">Products</a></li>
+      <li><a href="/about">About</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul></nav>
+  </header>
 
-  <section class="hero">
-    <h1>Small, sharp software for people who run real businesses.</h1>
-    <p class="lede">Kente HQ is a product studio. Each product does one job well, from getting a WhatsApp invoice paid to filling a cancelled dental appointment, and they share one standard for privacy, billing and support.</p>
-  </section>
+  <main id="main">
+    <section class="hero" aria-labelledby="hero-title">
+      <div>
+        <h1 id="hero-title">Focused software for people who run real businesses.</h1>
+        <p class="lede">Kente HQ is a product studio in Ghana. We build small products that each do one job well, for customers worldwide.</p>
+        <div class="actions">
+          <a class="btn btn-primary" href="#products">See the products</a>
+          <a class="btn btn-ghost" href="#contact">Contact</a>
+        </div>
+      </div>
+      <figure class="cloth-fig">
+        <svg class="cloth" viewBox="0 0 212 400" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Five kente strips sewn side by side into one cloth, one strip for each Kente HQ product.">
+      <g class="strip" style="--i:0"><g transform="translate(0 -0)"><rect y="0" width="40" height="400" fill="url(#s-invoices)"/></g></g>
+      <g class="strip" style="--i:1"><g transform="translate(43 -64)"><rect y="64" width="40" height="400" fill="url(#s-dental)"/></g></g>
+      <g class="strip" style="--i:2"><g transform="translate(86 -28)"><rect y="28" width="40" height="400" fill="url(#s-zoning)"/></g></g>
+      <g class="strip" style="--i:3"><g transform="translate(129 -96)"><rect y="96" width="40" height="400" fill="url(#s-creator)"/></g></g>
+      <g class="strip" style="--i:4"><g transform="translate(172 -44)"><rect y="44" width="40" height="400" fill="url(#s-gifts)"/></g></g>
+          <rect width="212" height="400" fill="url(#weft)"/>
+        </svg>
+        <figcaption>Five strips, one cloth. Each strip is one of our products.</figcaption>
+      </figure>
+    </section>
 
-  <ol class="strips">
-    <li class="strip"><span class="thread" style="background:var(--green)"></span><div><div class="who">For merchants who sell on WhatsApp</div><h2>Invoice Collector</h2><p>Type an invoice in WhatsApp. Your customer gets a pay link, polite reminders every 48 hours and a receipt, and the money settles straight to your account.</p></div><span class="status">Opening soon</span></li>
-    <li class="strip"><span class="thread" style="background:var(--gold)"></span><div><div class="who">For dental practices</div><h2>No-Show Recovery</h2><p>When a patient cancels, text the opening to your waitlist in one tap. The first patient to reply YES is booked, and everyone else is told it was taken.</p></div><span class="status">Opening soon</span></li>
-    <li class="strip"><span class="thread" style="background:var(--red)"></span><div><div class="who">For creators doing brand deals</div><h2>Gatekeeper</h2><p>Sponsors review watermarked previews, sign your terms and fund escrow. The clean files unlock when the money lands.</p></div><span class="status">Opening soon</span></li>
-    <li class="strip"><span class="thread" style="background:var(--ink)"></span><div><div class="who">For brands that gift product to creators</div><h2>Gift Ledger</h2><p>Follow every PR gift from Shopify order to delivery to the creator's post, and see what each verified post cost you.</p></div><span class="status">Opening soon</span></li>
-    <li class="strip"><span class="thread" style="background:var(--gold)"></span><div><div class="who">For real estate investors</div><h2><a href="https://zoning.kentehq.com" style="color:inherit">Zoning Watchdog</a></h2><p>We read city planning agendas every hour and alert you when a rezoning, variance or special use matches your keywords, before the hearing.</p></div><a class="status" href="https://zoning.kentehq.com" style="color:var(--green);font-weight:600">Live →</a></li>
-  </ol>
+    <section class="section" id="products" aria-labelledby="products-title">
+      <div class="section-head">
+        <h2 id="products-title">Five products, made to one standard.</h2>
+        <p>Kente is woven in narrow strips, then sewn into one cloth. Each of our products is a strip: built for one kind of customer, with the same billing, privacy and support behind it.</p>
+      </div>
+      <ul class="products">
+        <li class="product featured">
+          <svg class="swatch" viewBox="0 0 40 2000" preserveAspectRatio="xMidYMin slice" aria-hidden="true" focusable="false"><rect width="40" height="2000" fill="url(#s-zoning)"/></svg>
+          <div class="product-top"><h3>Zoning Watchdog</h3><span class="status status-live">Live</span></div>
+          <p class="who">For real estate investors</p>
+          <p class="value">We read city planning agendas every hour and alert you when a rezoning, variance or special use matches your keywords, before the hearing.</p>
+          <div class="actions">
+            <a class="btn btn-primary" href="https://zoning.kentehq.com">Open Zoning Watchdog <span class="arrow" aria-hidden="true">↗</span></a>
+          </div>
+        </li>
+        <li class="product">
+          <svg class="swatch" viewBox="0 0 40 2000" preserveAspectRatio="xMidYMin slice" aria-hidden="true" focusable="false"><rect width="40" height="2000" fill="url(#s-invoices)"/></svg>
+          <div class="product-top"><h3>Invoice Collector</h3><span class="status">Opening soon</span></div>
+          <p class="who">For merchants who sell on WhatsApp</p>
+          <p class="value">Type an invoice in WhatsApp. Your customer gets a pay link, polite reminders every 48 hours and a receipt, and the money settles straight to your account.</p>
+          <p class="meta"><span class="domain">invoices.kentehq.com</span></p>
+        </li>
+        <li class="product">
+          <svg class="swatch" viewBox="0 0 40 2000" preserveAspectRatio="xMidYMin slice" aria-hidden="true" focusable="false"><rect width="40" height="2000" fill="url(#s-dental)"/></svg>
+          <div class="product-top"><h3>No-Show Recovery</h3><span class="status">Opening soon</span></div>
+          <p class="who">For dental practices</p>
+          <p class="value">When a patient cancels, text the opening to your waitlist in one tap. The first patient to reply YES is booked, and everyone else is told it was taken.</p>
+          <p class="meta"><span class="domain">dental.kentehq.com</span></p>
+        </li>
+        <li class="product">
+          <svg class="swatch" viewBox="0 0 40 2000" preserveAspectRatio="xMidYMin slice" aria-hidden="true" focusable="false"><rect width="40" height="2000" fill="url(#s-creator)"/></svg>
+          <div class="product-top"><h3>Gatekeeper</h3><span class="status">Opening soon</span></div>
+          <p class="who">For creators doing brand deals</p>
+          <p class="value">Sponsors review watermarked previews, sign your terms and fund escrow. The clean files unlock when the money lands.</p>
+          <p class="meta"><span class="domain">creator.kentehq.com</span></p>
+        </li>
+        <li class="product">
+          <svg class="swatch" viewBox="0 0 40 2000" preserveAspectRatio="xMidYMin slice" aria-hidden="true" focusable="false"><rect width="40" height="2000" fill="url(#s-gifts)"/></svg>
+          <div class="product-top"><h3>Gift Ledger</h3><span class="status">Opening soon</span></div>
+          <p class="who">For brands that gift product to creators</p>
+          <p class="value">Follow every PR gift from Shopify order to delivery to the creator's post, and see what each verified post cost you.</p>
+          <p class="meta"><span class="domain">gifts.kentehq.com</span></p>
+        </li>
+      </ul>
+    </section>
 
-  <section class="about" id="contact">
-    <div><h3>How we bill</h3><p>Every product has a free plan and simple monthly subscriptions in US dollars. Payments are processed by Dodo Payments as merchant of record, and you can cancel any time from your account.</p></div>
-    <div><h3>Your data</h3><p>We collect only what each product needs to work, never sell it, and delete it when you close your account. See our <a href="/privacy">privacy policy</a>.</p></div>
-    <div><h3>Talk to us</h3><p>Questions, support or partnerships: <span class="addr">support@kentehq.com</span>. We reply within one business day.</p></div>
-  </section>
+    <section class="section facts" id="how-we-work" aria-labelledby="how-title">
+      <div class="section-head">
+        <h2 id="how-title">How we work</h2>
+        <p>The same rules apply to every product.</p>
+      </div>
+      <dl class="fact-list">
+        <div class="fact">
+          <dt>Billing</dt>
+          <dd>Every product has a free plan and simple monthly subscriptions in US dollars. Payments are processed by <strong>Dodo Payments as merchant of record</strong>, and you can cancel any time from your account.</dd>
+        </div>
+        <div class="fact">
+          <dt>Your data</dt>
+          <dd>We collect only what each product needs to work, never sell it, and delete it when you close your account. Hosting is on our own servers in the European Union.</dd>
+        </div>
+        <div class="fact" id="contact">
+          <dt>Support</dt>
+          <dd>Questions, support or partnerships. We reply within one business day.<br /><a class="email" href="mailto:support@kentehq.com">support@kentehq.com</a></dd>
+        </div>
+        <div class="fact">
+          <dt>Where we are</dt>
+          <dd>Kente HQ is a trading name of Accidental Genius LTD, a company registered in Ghana. We serve customers worldwide.</dd>
+        </div>
+        <div class="fact">
+          <dt>Policies</dt>
+          <dd class="links-dd"><span class="legal-links"><a href="/privacy">Privacy policy</a><a href="/terms">Terms of service</a><a href="/refunds">Refund policy</a></span></dd>
+        </div>
+      </dl>
+    </section>
+  </main>
 
-  <footer><span>© 2026 Kente HQ, Ghana</span><a href="/privacy">Privacy</a><a href="/terms">Terms</a><a href="/refunds">Refunds</a></footer>
+  <footer class="site-footer">
+    <div class="footer-row">
+      <span>© 2026 Kente HQ, Ghana</span>
+      <ul class="footer-links">
+        <li><a href="/about">About</a></li>
+        <li><a href="/privacy">Privacy</a></li>
+        <li><a href="/terms">Terms</a></li>
+        <li><a href="/refunds">Refunds</a></li>
+        <li><a href="mailto:support@kentehq.com">support@kentehq.com</a></li>
+      </ul>
+    </div>
+    <p class="legal-name">Kente HQ is a trading name of Accidental Genius LTD, registered in Ghana.</p>
+  </footer>
 </div>
 </body>
 </html>
