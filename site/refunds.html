@@ -1,50 +1,73 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" /><title>Refund policy · Kente HQ</title>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600&family=Instrument+Sans:wght@400;500;600&display=swap" />
-<style>
-/* Layout: one column of woven strips; each product is a strip of the cloth. */
-:root {
-  --bg: #f6f4ef; --fg: #1c1a16; --muted: #6b665c; --line: #dcd7cc;
-  --gold: #c99a1e; --green: #2f6b3f; --red: #a8322a; --ink: #1c1a16;
-  --display: "Fraunces", Georgia, "Times New Roman", serif;
-  --body: "Instrument Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
-  color-scheme: light;
-}
-@media (prefers-color-scheme: dark) {
-  :root { --bg: #15140f; --fg: #eeeae0; --muted: #a39d90; --line: #2f2c25; --gold: #e0b43c; --green: #6fb07f; --red: #d8655c; --ink: #eeeae0; color-scheme: dark; }
-}
-* { box-sizing: border-box; }
-body { margin: 0; background: var(--bg); color: var(--fg); font: 17px/1.6 var(--body); }
-.wrap { max-width: 980px; margin: 0 auto; padding-inline: 20px; }
-header { padding-block: 28px; display: flex; justify-content: space-between; align-items: center; gap: 16px; }
-.mark { font-family: var(--display); font-weight: 600; font-size: 22px; letter-spacing: -0.01em; }
-header a { color: var(--muted); text-decoration: none; font-size: 15px; }
-header a:hover { color: var(--fg); }
-.weave { height: 14px; border-radius: 2px; background:
-  repeating-linear-gradient(90deg, var(--gold) 0 28px, var(--green) 28px 40px, var(--gold) 40px 68px, var(--red) 68px 76px, var(--ink) 76px 84px); }
-.hero { padding-block: 56px 40px; }
-h1 { font-family: var(--display); font-weight: 400; font-size: clamp(2.2rem, 6vw, 3.6rem); line-height: 1.06; letter-spacing: -0.02em; margin: 0 0 18px; max-width: 18ch; text-wrap: balance; }
-.lede { color: var(--muted); max-width: 56ch; margin: 0; font-size: 18px; }
-.strips { list-style: none; padding: 0; margin: 24px 0 56px; border-top: 1px solid var(--line); }
-.strip { display: grid; grid-template-columns: 10px minmax(0, 1fr) auto; gap: 20px; align-items: start; padding-block: 24px; border-bottom: 1px solid var(--line); }
-.thread { align-self: stretch; border-radius: 2px; }
-.strip h2 { font-family: var(--display); font-weight: 600; font-size: 24px; margin: 0 0 4px; letter-spacing: -0.01em; }
-.strip p { margin: 0; color: var(--muted); max-width: 60ch; }
-.who { font-size: 13px; letter-spacing: 0.06em; text-transform: uppercase; color: var(--fg); margin-bottom: 6px; }
-.status { font-size: 13px; color: var(--muted); white-space: nowrap; padding-top: 6px; }
-.about { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 32px; padding-block: 8px 56px; }
-.about h3 { font-family: var(--display); font-weight: 600; font-size: 20px; margin: 0 0 8px; }
-.about p { margin: 0; color: var(--muted); }
-.addr { font-family: var(--body); font-weight: 600; color: var(--fg); user-select: all; }
-footer { border-top: 1px solid var(--line); padding-block: 24px 40px; display: flex; flex-wrap: wrap; gap: 8px 24px; color: var(--muted); font-size: 14px; }
-footer a { color: var(--muted); }
-a:focus-visible { outline: 2px solid var(--gold); outline-offset: 3px; }
-@media (max-width: 560px) { .strip { grid-template-columns: 8px minmax(0, 1fr); } .status { grid-column: 2; padding-top: 0; } }
-</style>
-<style>.doc{padding-block:40px 56px;max-width:68ch}.doc h1{font-size:clamp(2rem,5vw,2.8rem)}.doc h2{font-family:var(--display);font-weight:600;font-size:21px;margin:28px 0 6px}.doc p,.doc li{color:var(--fg)}.note{color:var(--muted);font-size:14px}</style></head>
-<body><div class="wrap"><header><a class="mark" href="/" style="color:var(--fg)">Kente HQ</a><a href="/#contact">Contact</a></header><div class="weave" role="presentation"></div>
-<main class="doc"><h1>Refund policy</h1><p class="note">Last updated 4 October 2026. Each product also publishes its own policy with product-specific details.</p>
-<p>Every product has a free plan so you can try it before paying.</p>
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<title>Refund policy · Kente HQ</title>
+<meta name="description" content="How cancellations and refunds work for Kente HQ subscriptions." />
+<link rel="canonical" href="https://kentehq.com/refunds" />
+<meta name="color-scheme" content="light dark" />
+<meta name="theme-color" content="#f6f6f4" media="(prefers-color-scheme: light)" />
+<meta name="theme-color" content="#121211" media="(prefers-color-scheme: dark)" />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="Kente HQ" />
+<meta property="og:url" content="https://kentehq.com/refunds" />
+<meta property="og:title" content="Refund policy · Kente HQ" />
+<meta property="og:description" content="How cancellations and refunds work for Kente HQ subscriptions." />
+<meta property="og:image" content="https://kentehq.com/og.png" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:image" content="https://kentehq.com/og.png" />
+<link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+<link rel="icon" href="/favicon.png" type="image/png" sizes="48x48" />
+<link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600&family=Instrument+Sans:wght@400;500;600&display=swap" />
+<link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><defs>
+<pattern id="s-zoning" width="40" height="120" patternUnits="userSpaceOnUse"><rect width="40" height="120" fill="#d9a521"/><rect x="4" width="3" height="36" fill="#161512"/><rect x="12" width="3" height="36" fill="#1f7a4a"/><rect x="20" width="3" height="36" fill="#161512"/><rect x="28" width="3" height="36" fill="#1f7a4a"/><rect x="36" width="3" height="36" fill="#161512"/><rect y="36" width="40" height="4" fill="#161512"/><rect y="40" width="40" height="36" fill="#1f7a4a"/><rect x="9" y="46" width="22" height="24" fill="#b8352c"/><rect x="15" y="52" width="10" height="12" fill="#161512"/><rect y="76" width="40" height="4" fill="#161512"/><rect y="84" width="40" height="4" fill="#b8352c"/><rect y="92" width="40" height="4" fill="#161512"/><rect y="100" width="40" height="4" fill="#b8352c"/><rect y="108" width="40" height="4" fill="#161512"/><rect y="116" width="40" height="4" fill="#161512"/></pattern>
+<pattern id="s-invoices" width="40" height="120" patternUnits="userSpaceOnUse"><rect width="40" height="120" fill="#1f7a4a"/><rect x="4" width="3" height="36" fill="#161512"/><rect x="12" width="3" height="36" fill="#d9a521"/><rect x="20" width="3" height="36" fill="#161512"/><rect x="28" width="3" height="36" fill="#d9a521"/><rect x="36" width="3" height="36" fill="#161512"/><rect y="36" width="40" height="4" fill="#161512"/><rect y="40" width="40" height="36" fill="#d9a521"/><rect x="9" y="46" width="22" height="24" fill="#22508f"/><rect x="15" y="52" width="10" height="12" fill="#161512"/><rect y="76" width="40" height="4" fill="#161512"/><rect y="84" width="40" height="4" fill="#22508f"/><rect y="92" width="40" height="4" fill="#161512"/><rect y="100" width="40" height="4" fill="#22508f"/><rect y="108" width="40" height="4" fill="#161512"/><rect y="116" width="40" height="4" fill="#161512"/></pattern>
+<pattern id="s-dental" width="40" height="120" patternUnits="userSpaceOnUse"><rect width="40" height="120" fill="#b8352c"/><rect x="4" width="3" height="36" fill="#161512"/><rect x="12" width="3" height="36" fill="#d9a521"/><rect x="20" width="3" height="36" fill="#161512"/><rect x="28" width="3" height="36" fill="#d9a521"/><rect x="36" width="3" height="36" fill="#161512"/><rect y="36" width="40" height="4" fill="#161512"/><rect y="40" width="40" height="36" fill="#d9a521"/><rect x="9" y="46" width="22" height="24" fill="#1f7a4a"/><rect x="15" y="52" width="10" height="12" fill="#161512"/><rect y="76" width="40" height="4" fill="#161512"/><rect y="84" width="40" height="4" fill="#1f7a4a"/><rect y="92" width="40" height="4" fill="#161512"/><rect y="100" width="40" height="4" fill="#1f7a4a"/><rect y="108" width="40" height="4" fill="#161512"/><rect y="116" width="40" height="4" fill="#161512"/></pattern>
+<pattern id="s-creator" width="40" height="120" patternUnits="userSpaceOnUse"><rect width="40" height="120" fill="#22508f"/><rect x="4" width="3" height="36" fill="#161512"/><rect x="12" width="3" height="36" fill="#b8352c"/><rect x="20" width="3" height="36" fill="#161512"/><rect x="28" width="3" height="36" fill="#b8352c"/><rect x="36" width="3" height="36" fill="#161512"/><rect y="36" width="40" height="4" fill="#161512"/><rect y="40" width="40" height="36" fill="#b8352c"/><rect x="9" y="46" width="22" height="24" fill="#d9a521"/><rect x="15" y="52" width="10" height="12" fill="#161512"/><rect y="76" width="40" height="4" fill="#161512"/><rect y="84" width="40" height="4" fill="#d9a521"/><rect y="92" width="40" height="4" fill="#161512"/><rect y="100" width="40" height="4" fill="#d9a521"/><rect y="108" width="40" height="4" fill="#161512"/><rect y="116" width="40" height="4" fill="#161512"/></pattern>
+<pattern id="s-gifts" width="40" height="120" patternUnits="userSpaceOnUse"><rect width="40" height="120" fill="#d9a521"/><rect x="4" width="3" height="36" fill="#161512"/><rect x="12" width="3" height="36" fill="#22508f"/><rect x="20" width="3" height="36" fill="#161512"/><rect x="28" width="3" height="36" fill="#22508f"/><rect x="36" width="3" height="36" fill="#161512"/><rect y="36" width="40" height="4" fill="#161512"/><rect y="40" width="40" height="36" fill="#22508f"/><rect x="9" y="46" width="22" height="24" fill="#b8352c"/><rect x="15" y="52" width="10" height="12" fill="#161512"/><rect y="76" width="40" height="4" fill="#161512"/><rect y="84" width="40" height="4" fill="#b8352c"/><rect y="92" width="40" height="4" fill="#161512"/><rect y="100" width="40" height="4" fill="#b8352c"/><rect y="108" width="40" height="4" fill="#161512"/><rect y="116" width="40" height="4" fill="#161512"/></pattern>
+<pattern id="weft" width="3" height="3" patternUnits="userSpaceOnUse"><rect width="3" height="1" fill="#000" opacity=".14"/></pattern>
+<pattern id="s-band" href="#s-zoning" patternTransform="rotate(90) scale(0.35)"/>
+</defs></svg>
+<div class="wrap">
+  <header class="site-header">
+    <a class="brand" href="/" aria-label="Kente HQ home"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="3" y="2" width="5" height="20" rx="1" fill="#d9a521"/><rect x="9.5" y="2" width="5" height="20" rx="1" fill="#1f7a4a"/><rect x="16" y="2" width="5" height="20" rx="1" fill="#b8352c"/><rect x="1" y="9.5" width="22" height="5" rx="1" fill="currentColor"/><rect x="9.5" y="9" width="5" height="6" fill="#1f7a4a"/></svg>Kente HQ</a>
+    <nav aria-label="Main"><ul class="nav"><li><a href="/#products">Products</a></li><li><a href="/about">About</a></li><li><a href="/#contact">Contact</a></li></ul></nav>
+  </header>
+  <main id="main" class="doc">
+<svg class="band" viewBox="0 0 400 14" preserveAspectRatio="xMinYMid slice" aria-hidden="true" focusable="false"><rect width="400" height="14" fill="url(#s-band)"/></svg>
+<h1>Refund policy</h1>
+<p class="note">Last updated 4 October 2026. Each product also publishes its own policy with product-specific details.</p>
+<p>Kente HQ products are operated by Accidental Genius LTD (trading as Kente HQ), a company registered in Ghana. Every product has a free plan so you can try it before paying.</p>
+
 <h2>Subscriptions</h2><p>You can cancel any time from your account; you keep access until the end of the paid period. If you were charged by mistake or the product did not work for you, email us within 14 days of the charge and we will refund it in full.</p>
+
 <h2>How refunds are paid</h2><p>Refunds go back to the original payment method through Dodo Payments, usually within 5 to 10 business days.</p>
-<h2>Contact</h2><p><span class="addr">support@kentehq.com</span></p>
-</main><footer><span>© 2026 Kente HQ, Ghana</span><a href="/privacy">Privacy</a><a href="/terms">Terms</a><a href="/refunds">Refunds</a></footer></div></body></html>
+
+<h2>Contact</h2><p><a href="mailto:support@kentehq.com">support@kentehq.com</a></p>
+  </main>
+  <footer class="site-footer">
+    <div class="footer-row">
+      <span>© 2026 Kente HQ, Ghana</span>
+      <ul class="footer-links">
+        <li><a href="/about">About</a></li>
+        <li><a href="/privacy">Privacy</a></li>
+        <li><a href="/terms">Terms</a></li>
+        <li><a href="/refunds">Refunds</a></li>
+        <li><a href="mailto:support@kentehq.com">support@kentehq.com</a></li>
+      </ul>
+    </div>
+    <p class="legal-name">Kente HQ is a trading name of Accidental Genius LTD, registered in Ghana.</p>
+  </footer>
+</div>
+</body>
+</html>
