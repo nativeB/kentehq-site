@@ -1,0 +1,50 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" /><title>Refund policy · Kente HQ</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600&family=Instrument+Sans:wght@400;500;600&display=swap" />
+<style>
+/* Layout: one column of woven strips; each product is a strip of the cloth. */
+:root {
+  --bg: #f6f4ef; --fg: #1c1a16; --muted: #6b665c; --line: #dcd7cc;
+  --gold: #c99a1e; --green: #2f6b3f; --red: #a8322a; --ink: #1c1a16;
+  --display: "Fraunces", Georgia, "Times New Roman", serif;
+  --body: "Instrument Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) {
+  :root { --bg: #15140f; --fg: #eeeae0; --muted: #a39d90; --line: #2f2c25; --gold: #e0b43c; --green: #6fb07f; --red: #d8655c; --ink: #eeeae0; color-scheme: dark; }
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--fg); font: 17px/1.6 var(--body); }
+.wrap { max-width: 980px; margin: 0 auto; padding-inline: 20px; }
+header { padding-block: 28px; display: flex; justify-content: space-between; align-items: center; gap: 16px; }
+.mark { font-family: var(--display); font-weight: 600; font-size: 22px; letter-spacing: -0.01em; }
+header a { color: var(--muted); text-decoration: none; font-size: 15px; }
+header a:hover { color: var(--fg); }
+.weave { height: 14px; border-radius: 2px; background:
+  repeating-linear-gradient(90deg, var(--gold) 0 28px, var(--green) 28px 40px, var(--gold) 40px 68px, var(--red) 68px 76px, var(--ink) 76px 84px); }
+.hero { padding-block: 56px 40px; }
+h1 { font-family: var(--display); font-weight: 400; font-size: clamp(2.2rem, 6vw, 3.6rem); line-height: 1.06; letter-spacing: -0.02em; margin: 0 0 18px; max-width: 18ch; text-wrap: balance; }
+.lede { color: var(--muted); max-width: 56ch; margin: 0; font-size: 18px; }
+.strips { list-style: none; padding: 0; margin: 24px 0 56px; border-top: 1px solid var(--line); }
+.strip { display: grid; grid-template-columns: 10px minmax(0, 1fr) auto; gap: 20px; align-items: start; padding-block: 24px; border-bottom: 1px solid var(--line); }
+.thread { align-self: stretch; border-radius: 2px; }
+.strip h2 { font-family: var(--display); font-weight: 600; font-size: 24px; margin: 0 0 4px; letter-spacing: -0.01em; }
+.strip p { margin: 0; color: var(--muted); max-width: 60ch; }
+.who { font-size: 13px; letter-spacing: 0.06em; text-transform: uppercase; color: var(--fg); margin-bottom: 6px; }
+.status { font-size: 13px; color: var(--muted); white-space: nowrap; padding-top: 6px; }
+.about { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 32px; padding-block: 8px 56px; }
+.about h3 { font-family: var(--display); font-weight: 600; font-size: 20px; margin: 0 0 8px; }
+.about p { margin: 0; color: var(--muted); }
+.addr { font-family: var(--body); font-weight: 600; color: var(--fg); user-select: all; }
+footer { border-top: 1px solid var(--line); padding-block: 24px 40px; display: flex; flex-wrap: wrap; gap: 8px 24px; color: var(--muted); font-size: 14px; }
+footer a { color: var(--muted); }
+a:focus-visible { outline: 2px solid var(--gold); outline-offset: 3px; }
+@media (max-width: 560px) { .strip { grid-template-columns: 8px minmax(0, 1fr); } .status { grid-column: 2; padding-top: 0; } }
+</style>
+<style>.doc{padding-block:40px 56px;max-width:68ch}.doc h1{font-size:clamp(2rem,5vw,2.8rem)}.doc h2{font-family:var(--display);font-weight:600;font-size:21px;margin:28px 0 6px}.doc p,.doc li{color:var(--fg)}.note{color:var(--muted);font-size:14px}</style></head>
+<body><div class="wrap"><header><a class="mark" href="/" style="color:var(--fg)">Kente HQ</a><a href="/#contact">Contact</a></header><div class="weave" role="presentation"></div>
+<main class="doc"><h1>Refund policy</h1><p class="note">Last updated 4 October 2026. Each product also publishes its own policy with product-specific details.</p>
+<p>Every product has a free plan so you can try it before paying.</p>
+<h2>Subscriptions</h2><p>You can cancel any time from your account; you keep access until the end of the paid period. If you were charged by mistake or the product did not work for you, email us within 14 days of the charge and we will refund it in full.</p>
+<h2>How refunds are paid</h2><p>Refunds go back to the original payment method through Dodo Payments, usually within 5 to 10 business days.</p>
+<h2>Contact</h2><p><span class="addr">support@kentehq.com</span></p>
+</main><footer><span>© 2026 Kente HQ, Ghana</span><a href="/privacy">Privacy</a><a href="/terms">Terms</a><a href="/refunds">Refunds</a></footer></div></body></html>
