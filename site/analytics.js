@@ -49,7 +49,6 @@
       track_pageview: false,
       autocapture: false,
       record_sessions_percent: 0,
-      ip: false,
       respect_dnt: true,
       ignore_dnt: false,
       property_blacklist: ["$current_url", "$referrer"]
