@@ -1,6 +1,6 @@
 # kentehq.com: company site for Kente HQ
 
-Static site (`site/`, served by nginx in Docker). Kente HQ is a product studio from Ghana with five SaaS products, each on its own subdomain.
+Static site (`site/`, served by nginx in Docker). SEO/answer-engine checks: `./scripts/check.sh` (needs Docker). After editing page copy run `node scripts/gen-llms-full.mjs`; keep the FAQ JSON-LD in `site/index.html` identical to the visible FAQ, and bump `lastmod` in `site/sitemap.xml` for changed pages. Kente HQ is a product studio from Ghana with five SaaS products, each on its own subdomain.
 
 ## Task: polish the site into a real company homepage
 

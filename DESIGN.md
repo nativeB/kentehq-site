@@ -30,6 +30,10 @@ Layout families, one per section:
 3. **How we work (trust):** headline column + definition list of plain facts (billing,
    data, support, where we are).
 4. **Contact:** one large email address, as text and as a `mailto:` link.
+5. **How Zoning Watchdog works** and **Questions (FAQ):** same headline column + list layout as
+   "How we work". Steps are a real `<ol>`; FAQ uses native `<details>` so every answer is in the
+   HTML for crawlers and readers without JS. The FAQ JSON-LD must mirror the visible text
+   (`scripts/check-seo.mjs` enforces it).
 
 ## Type
 

@@ -1,0 +1,253 @@
+# Kente HQ: full site text
+
+> The complete public text of kentehq.com in one file, for AI assistants and answer engines. Summary and links: https://kentehq.com/llms.txt
+
+---
+
+Source: https://kentehq.com/
+
+## Focused software for people who run real businesses.
+
+Kente HQ is a product studio in Ghana. We build small products that each do one job well, for customers worldwide.
+
+### Five products, made to one standard.
+
+Kente is woven in narrow strips, then sewn into one cloth. Each of our products is a strip: built for one kind of customer, with the same billing, privacy and support behind it.
+
+#### Zoning Watchdog
+
+Status: Live
+
+For real estate investors
+
+We read city planning agendas every hour and alert you when a rezoning, variance or special use matches your keywords, before the hearing.
+
+#### Invoice Collector
+
+Status: Opening soon
+
+For merchants who sell on WhatsApp
+
+Type an invoice in WhatsApp. Your customer gets a pay link, polite reminders every 48 hours and a receipt, and the money settles straight to your account.
+
+Address: invoices.kentehq.com
+
+#### No-Show Recovery
+
+Status: Opening soon
+
+For dental practices
+
+When a patient cancels, text the opening to your waitlist in one tap. The first patient to reply YES is booked, and everyone else is told it was taken.
+
+Address: dental.kentehq.com
+
+#### Gatekeeper
+
+Status: Opening soon
+
+For creators doing brand deals
+
+Sponsors review watermarked previews, sign your terms and fund escrow. The clean files unlock when the money lands.
+
+Address: creator.kentehq.com
+
+#### Gift Ledger
+
+Status: Opening soon
+
+For brands that gift product to creators
+
+Follow every PR gift from Shopify order to delivery to the creator's post, and see what each verified post cost you.
+
+Address: gifts.kentehq.com
+
+### How Zoning Watchdog works
+
+Our live product, in four steps.
+
+1. **Create a free account.** Sign up at [zoning.kentehq.com](https://zoning.kentehq.com). There is a free plan, so you can try it before paying.
+
+2. **Add your keywords.** Tell Zoning Watchdog the words that matter to your deals.
+
+3. **We read the agendas.** Every hour, Zoning Watchdog reads city planning agendas as they are posted.
+
+4. **You hear first.** When a rezoning, variance or special use item matches your keywords, you get an alert before the hearing.
+
+### How we work
+
+The same rules apply to every product.
+
+**Billing:** Every product has a free plan and simple monthly subscriptions in US dollars. Payments are processed by Dodo Payments as merchant of record, and you can cancel any time from your account.
+
+**Your data:** We collect only what each product needs to work, never sell it, and delete it when you close your account. Hosting is on our own servers in the European Union.
+
+**Support:** Questions, support or partnerships. We reply within one business day. support@kentehq.com
+
+**Where we are:** Kente HQ is a trading name of Accidental Genius LTD, a company registered in Ghana. We serve customers worldwide.
+
+**Policies:** [Privacy policy](https://kentehq.com/privacy) · [Terms of service](https://kentehq.com/terms) · [Refund policy](https://kentehq.com/refunds)
+
+### Questions
+
+Plain answers about Kente HQ, our products, billing and your data. Anything else: support@kentehq.com.
+
+#### What is Kente HQ?
+
+Kente HQ is a software studio based in Accra, Ghana that builds small, focused web apps for small businesses. It runs five products, each on its own kentehq.com subdomain and each built for one kind of customer. Kente HQ is a trading name of Accidental Genius LTD, a company registered in Ghana.
+
+#### Who are Kente HQ products for?
+
+Kente HQ builds for people who run small businesses and want one job done well rather than a large suite of tools. Today that means real estate investors, with Zoning Watchdog. Products for merchants who sell on WhatsApp, dental practices, creators doing brand deals and brands that gift product to creators are opening soon.
+
+#### Which Kente HQ products are available today?
+
+Zoning Watchdog is live at zoning.kentehq.com. Invoice Collector, No-Show Recovery, Gatekeeper and Gift Ledger are opening soon and have not opened yet. Each product is marked Live on this page when it opens.
+
+#### What does Zoning Watchdog do?
+
+Zoning Watchdog reads city planning agendas every hour and alerts real estate investors when a rezoning, variance or special use item matches their keywords. The alert arrives before the hearing, so you hear about it while there is still time to act. It runs in the browser at zoning.kentehq.com and has a free plan.
+
+#### How does Zoning Watchdog compare to checking agendas yourself or using Google Alerts?
+
+Checking agendas yourself means visiting each city's website, opening every new agenda and reading it for items that matter, which costs nothing but takes time and is easy to miss. Google Alerts is free and useful for news, but it reports pages after Google indexes them rather than reading each agenda as it is posted. Zoning Watchdog does the agenda reading every hour and only alerts you on rezoning, variance and special use items that match your keywords.
+
+#### How much do Kente HQ products cost?
+
+Every Kente HQ product has a free plan. Paid plans are simple subscriptions in US dollars that renew monthly or yearly until you cancel, and each product lists its current prices on its own site, such as zoning.kentehq.com for Zoning Watchdog. We give 30 days' notice before a price changes.
+
+#### Who processes payments for Kente HQ?
+
+Dodo Payments is the merchant of record for Kente HQ subscriptions. That means Dodo Payments runs checkout, takes the payment and handles sales tax or VAT, and its terms apply to your purchase alongside ours.
+
+#### Can I cancel a Kente HQ subscription or get a refund?
+
+You can cancel any Kente HQ subscription at any time from your account and keep access until the end of the period you paid for. If you were charged by mistake or the product did not work for you, email support@kentehq.com within 14 days of the charge for a full refund. Refunds go back to the original payment method through Dodo Payments, usually within 5 to 10 business days.
+
+#### How does Kente HQ handle my data?
+
+Kente HQ collects only what each product needs to work, does not sell personal data and does not use it for advertising. Data is hosted on our own servers in the European Union. When you delete your account, we delete or anonymise your data within 30 days, except records the law requires us to keep, such as invoices.
+
+#### Which countries and currencies does Kente HQ support?
+
+Kente HQ is based in Ghana and sells to customers worldwide. Subscription prices are in US dollars, and Dodo Payments handles checkout and local tax as merchant of record. Some products work with local data, such as the city agendas Zoning Watchdog reads, so check each product's site for what it covers.
+
+#### How do I contact Kente HQ?
+
+Email support@kentehq.com for support, billing questions or partnerships. We reply within one business day.
+
+---
+
+Source: https://kentehq.com/about
+
+## About Kente HQ
+
+Kente HQ is a product studio based in Accra, Ghana, and a trading name of Accidental Genius LTD, a company registered in Ghana. We build small, focused software products for people who run real businesses, and sell them to customers worldwide.
+
+### Why the name
+
+Kente cloth is woven in narrow strips on a loom, then the strips are sewn edge to edge into one cloth. Each strip has its own pattern, and the cloth only works because they are made to the same standard.
+
+That is how we build. Each product is a strip: it does one job for one kind of customer and lives on its own subdomain. Behind all of them sit the same billing, privacy and support.
+
+### What we make
+
+[Zoning Watchdog](https://zoning.kentehq.com) is live for real estate investors. Invoice Collector, No-Show Recovery, Gatekeeper and Gift Ledger are opening soon. See [all five products](https://kentehq.com/#products), [how Zoning Watchdog works](https://kentehq.com/#how-it-works) and [common questions](https://kentehq.com/#faq).
+
+### How we run them
+
+Every product has a free plan and simple monthly subscriptions in US dollars. Payments are processed by Dodo Payments as merchant of record. We collect only what each product needs, never sell it, and delete it when you close your account. Read the [privacy policy](https://kentehq.com/privacy), [terms](https://kentehq.com/terms) and [refund policy](https://kentehq.com/refunds).
+
+### Company
+
+Kente HQ is a trading name of Accidental Genius LTD, registered in Ghana. Accidental Genius LTD operates every Kente HQ product and is the party to our [terms of service](https://kentehq.com/terms).
+
+### Contact
+
+Questions, support or partnerships: support@kentehq.com. We reply within one business day.
+
+---
+
+Source: https://kentehq.com/privacy
+
+## Privacy policy
+
+Last updated 4 October 2026. Each product also publishes its own policy with product-specific details.
+
+Accidental Genius LTD (trading as Kente HQ), a company registered in Ghana, operates Invoice Collector, No-Show Recovery, Gatekeeper, Gift Ledger and Zoning Watchdog. This policy explains what we collect across them.
+
+### What we collect
+
+Account details (name, email), the data you put into a product to make it work (for example invoices, waitlists, deliverables or keyword alerts), billing records from our payment processor, and basic technical logs to keep the service secure.
+
+### How we use it
+
+Only to run the product you signed up for, support you, bill you, and meet legal obligations. We do not sell personal data or use it for advertising.
+
+### Who processes it
+
+Hosting on our own servers in the European Union; email by Resend; subscription billing by Dodo Payments; in-product payments by Paystack where a product offers them; messaging by Meta (WhatsApp) or Twilio where a product sends messages; file storage by Cloudflare; product analytics by Mixpanel (EU). Each receives only what it needs.
+
+### Product analytics
+
+If analytics is enabled, we use Mixpanel (hosted in the European Union) to understand which pages and products people look at. We record page views, clicks on product cards and buttons, and outbound links, with an anonymous identifier stored in a first-party cookie on kentehq.com and our product subdomains. URLs are trimmed to the path plus utm_ and ref parameters. We do not record form input or sessions, we do not sell this data or use it for advertising, and we honour your browser's Do Not Track and Global Privacy Control signals by not tracking at all.
+
+### Retention and deletion
+
+We keep your data while your account is open. When you delete your account, we delete or anonymise it within 30 days, except records we must keep by law, such as invoices.
+
+### Your rights
+
+You can access, correct, export or delete your data. Email support@kentehq.com and we will respond within 30 days.
+
+---
+
+Source: https://kentehq.com/terms
+
+## Terms of service
+
+Last updated 4 October 2026. Each product also publishes its own policy with product-specific details.
+
+These terms are an agreement between you and Accidental Genius LTD (trading as Kente HQ), a company registered in Ghana. They apply to every Kente HQ product. By creating an account you agree to them.
+
+### Your account
+
+Keep your login secure and give accurate information. You are responsible for activity on your account and for having the right to any data you upload or messages you send through our products.
+
+### Acceptable use
+
+Do not use our products for spam, fraud, unlawful content, or to message people who have not agreed to hear from you. We may suspend accounts that put our users or providers at risk.
+
+### Plans and billing
+
+Paid plans renew monthly or yearly until cancelled. Dodo Payments is the merchant of record for subscriptions, and its terms also apply to your purchase. Prices may change with 30 days' notice.
+
+### Availability
+
+We work hard to keep the products running but do not guarantee uninterrupted service. To the extent the law allows, our liability is limited to the fees you paid in the previous 12 months.
+
+### Contact
+
+support@kentehq.com
+
+---
+
+Source: https://kentehq.com/refunds
+
+## Refund policy
+
+Last updated 4 October 2026. Each product also publishes its own policy with product-specific details.
+
+Kente HQ products are operated by Accidental Genius LTD (trading as Kente HQ), a company registered in Ghana. Every product has a free plan so you can try it before paying.
+
+### Subscriptions
+
+You can cancel any time from your account; you keep access until the end of the paid period. If you were charged by mistake or the product did not work for you, email us within 14 days of the charge and we will refund it in full.
+
+### How refunds are paid
+
+Refunds go back to the original payment method through Dodo Payments, usually within 5 to 10 business days.
+
+### Contact
+
+support@kentehq.com

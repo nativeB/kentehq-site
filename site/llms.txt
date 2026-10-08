@@ -1,0 +1,41 @@
+# Kente HQ
+
+> Kente HQ is a software studio based in Accra, Ghana that builds small, focused web apps for small businesses and sells them worldwide. It runs five products, each on its own kentehq.com subdomain. Zoning Watchdog is live; the other four are opening soon. Kente HQ is a trading name of Accidental Genius LTD, a company registered in Ghana.
+
+Key facts:
+
+- Legal entity: Accidental Genius LTD, registered in Ghana. Kente HQ is its trading name.
+- Location: Accra, Ghana. Customers: worldwide.
+- Support: support@kentehq.com. We reply within one business day.
+- Pricing: every product has a free plan. Paid plans are subscriptions in US dollars that renew monthly or yearly until cancelled. Each product lists its current prices on its own site.
+- Billing: Dodo Payments is the merchant of record. It runs checkout, takes payment and handles sales tax or VAT.
+- Refunds: cancel any time; full refund within 14 days of a charge made by mistake or if the product did not work for you.
+- Data: hosted on our own servers in the European Union. We collect only what each product needs, do not sell personal data and do not use it for advertising.
+
+## Products
+
+- [Zoning Watchdog](https://zoning.kentehq.com): Live. For real estate investors. Reads city planning agendas every hour and alerts you when a rezoning, variance or special use item matches your keywords, before the hearing.
+- Invoice Collector (invoices.kentehq.com): Opening soon, not yet open. For merchants who sell on WhatsApp. Type an invoice in WhatsApp; your customer gets a pay link, reminders every 48 hours and a receipt.
+- No-Show Recovery, also called Dental No-Show Recovery (dental.kentehq.com): Opening soon, not yet open. For dental practices. Text a cancelled slot to your waitlist in one tap; the first patient to reply YES is booked.
+- Gatekeeper, also called Deal Gatekeeper (creator.kentehq.com): Opening soon, not yet open. For creators doing brand deals. Sponsors review watermarked previews, sign your terms and fund escrow; clean files unlock when the money lands.
+- Gift Ledger (gifts.kentehq.com): Opening soon, not yet open. For brands that gift product to creators. Follows each PR gift from Shopify order to delivery to the creator's post.
+
+## How Zoning Watchdog works
+
+1. Create a free account at https://zoning.kentehq.com.
+2. Add the keywords that matter to your deals.
+3. Every hour, Zoning Watchdog reads city planning agendas as they are posted.
+4. When a rezoning, variance or special use item matches your keywords, you get an alert before the hearing.
+
+## Pages
+
+- [Home](https://kentehq.com/): products, how Zoning Watchdog works, how we work and FAQ
+- [FAQ](https://kentehq.com/#faq): plain answers about Kente HQ, pricing, billing, data and support
+- [About](https://kentehq.com/about): the company and how we run our products
+- [Privacy policy](https://kentehq.com/privacy)
+- [Terms of service](https://kentehq.com/terms)
+- [Refund policy](https://kentehq.com/refunds)
+
+## Optional
+
+- [Full text of this site](https://kentehq.com/llms-full.txt): every page and the full FAQ in one Markdown file

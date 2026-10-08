@@ -159,3 +159,29 @@ p { margin: 0; }
   .brand { font-size: 17px; }
   .actions .btn { flex: 1 1 100%; }
 }
+.footer-links li > span { display: inline-flex; min-height: 44px; align-items: center; }
+.footer-links small { font-size: inherit; opacity: 0.8; margin-inline-start: 0.3em; }
+.footer-products { margin-top: 4px; }
+.footer-products > span { color: var(--fg); font-weight: 600; }
+
+/* How Zoning Watchdog works: numbered steps */
+.steps { list-style: none; margin: 0; padding: 0; counter-reset: step; display: grid; gap: 0; }
+.steps li { counter-increment: step; display: grid; grid-template-columns: 2.5rem minmax(0, 1fr); column-gap: 16px; padding-block: 22px; border-top: 1px solid var(--line); }
+.steps li:first-child { border-top: 0; padding-top: 4px; }
+.steps li::before { content: counter(step); grid-row: 1 / span 2; font-family: var(--display); font-weight: 600; font-size: 19px; color: var(--accent); font-variant-numeric: tabular-nums; }
+.steps h3 { font-size: 19px; }
+.steps p { margin-top: 4px; color: var(--muted); max-width: 58ch; }
+
+/* FAQ: native disclosure, answers are in the HTML for readers without JS */
+.faq { display: grid; }
+.faq details { border-top: 1px solid var(--line); }
+.faq details:first-child { border-top: 0; }
+.faq summary { display: flex; align-items: flex-start; justify-content: space-between; gap: 16px; min-height: 44px; padding-block: 18px; cursor: pointer; list-style: none; border-radius: 4px; touch-action: manipulation; }
+.faq details:first-child summary { padding-top: 4px; }
+.faq summary::-webkit-details-marker { display: none; }
+.faq summary::after { content: "+"; flex: none; width: 1.25em; text-align: center; font: 500 22px/1.1 var(--body); color: var(--muted); transition: transform 200ms var(--ease-out); }
+.faq details[open] summary::after { transform: rotate(45deg); }
+.faq summary h3 { font-size: 19px; line-height: 1.3; min-width: 0; }
+.faq details p { padding-bottom: 22px; margin-top: -6px; color: var(--muted); max-width: 62ch; }
+@media (hover: hover) and (pointer: fine) { .faq summary:hover::after { color: var(--fg); } }
+@media (prefers-reduced-motion: reduce) { .faq summary::after { transition: none; } }

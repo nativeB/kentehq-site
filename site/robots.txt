@@ -1,0 +1,36 @@
+# kentehq.com: public marketing site. Search engines and AI crawlers are welcome on public pages.
+# Product apps live on their own subdomains, each with its own robots.txt.
+
+User-agent: *
+Allow: /
+Disallow: /app/
+Disallow: /admin/
+Disallow: /api/
+Disallow: /pay/
+Disallow: /review/
+Disallow: /reset/
+
+# Search engines
+User-agent: Googlebot
+User-agent: Bingbot
+# AI search and assistants
+User-agent: OAI-SearchBot
+User-agent: ChatGPT-User
+User-agent: GPTBot
+User-agent: ClaudeBot
+User-agent: Claude-User
+User-agent: Claude-SearchBot
+User-agent: PerplexityBot
+User-agent: Perplexity-User
+User-agent: Google-Extended
+User-agent: Applebot-Extended
+User-agent: CCBot
+Allow: /
+Disallow: /app/
+Disallow: /admin/
+Disallow: /api/
+Disallow: /pay/
+Disallow: /review/
+Disallow: /reset/
+
+Sitemap: https://kentehq.com/sitemap.xml

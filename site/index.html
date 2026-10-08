@@ -4,13 +4,15 @@
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
 <title>Kente HQ · Focused software for small businesses</title>
-<meta name="description" content="Kente HQ is a product studio in Ghana building focused software for small businesses: zoning alerts, WhatsApp invoicing, dental waitlists, creator brand deals and PR gifting." />
+<meta name="description" content="Kente HQ is a product studio in Ghana building focused software for small businesses: zoning alerts, WhatsApp invoicing, dental waitlists, creator deals and PR gifting." />
 <link rel="canonical" href="https://kentehq.com/" />
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1" />
 <meta name="color-scheme" content="light dark" />
 <meta name="theme-color" content="#f6f6f4" media="(prefers-color-scheme: light)" />
 <meta name="theme-color" content="#121211" media="(prefers-color-scheme: dark)" />
 <meta property="og:type" content="website" />
 <meta property="og:site_name" content="Kente HQ" />
+<meta property="og:locale" content="en" />
 <meta property="og:url" content="https://kentehq.com/" />
 <meta property="og:title" content="Kente HQ · Focused software for small businesses" />
 <meta property="og:description" content="A product studio in Ghana. Five small products, each doing one job well, for customers worldwide." />
@@ -22,6 +24,7 @@
 <meta name="twitter:title" content="Kente HQ · Focused software for small businesses" />
 <meta name="twitter:description" content="A product studio in Ghana. Five small products, each doing one job well, for customers worldwide." />
 <meta name="twitter:image" content="https://kentehq.com/og.png" />
+<meta name="twitter:image:alt" content="Kente HQ wordmark beside five woven kente strips in gold, green, red and blue." />
 <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
 <link rel="icon" href="/favicon.png" type="image/png" sizes="48x48" />
 <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
@@ -30,7 +33,232 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600&family=Instrument+Sans:wght@400;500;600&display=swap" />
 <link rel="stylesheet" href="/styles.css" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"Organization","name":"Kente HQ","legalName":"Accidental Genius LTD","url":"https://kentehq.com/","logo":"https://kentehq.com/apple-touch-icon.png","email":"support@kentehq.com","address":{"@type":"PostalAddress","addressCountry":"GH"},"areaServed":"Worldwide"}
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "Organization",
+   "@id": "https://kentehq.com/#organization",
+   "name": "Kente HQ",
+   "legalName": "Accidental Genius LTD",
+   "url": "https://kentehq.com/",
+   "logo": {
+    "@type": "ImageObject",
+    "url": "https://kentehq.com/apple-touch-icon.png",
+    "width": 180,
+    "height": 180
+   },
+   "image": "https://kentehq.com/og.png",
+   "description": "Kente HQ is a software studio in Accra, Ghana that builds small, focused web apps for small businesses. Kente HQ is a trading name of Accidental Genius LTD, a company registered in Ghana.",
+   "email": "support@kentehq.com",
+   "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Accra",
+    "addressCountry": "GH"
+   },
+   "areaServed": "Worldwide",
+   "contactPoint": [
+    {
+     "@type": "ContactPoint",
+     "contactType": "customer support",
+     "email": "support@kentehq.com",
+     "availableLanguage": [
+      "en"
+     ],
+     "areaServed": "Worldwide"
+    }
+   ]
+  },
+  {
+   "@type": "WebSite",
+   "@id": "https://kentehq.com/#website",
+   "url": "https://kentehq.com/",
+   "name": "Kente HQ",
+   "inLanguage": "en",
+   "publisher": {
+    "@id": "https://kentehq.com/#organization"
+   }
+  },
+  {
+   "@type": "WebPage",
+   "@id": "https://kentehq.com/#webpage",
+   "url": "https://kentehq.com/",
+   "name": "Kente HQ · Focused software for small businesses",
+   "description": "Kente HQ is a product studio in Ghana building focused software for small businesses: zoning alerts, WhatsApp invoicing, dental waitlists, creator deals and PR gifting.",
+   "inLanguage": "en",
+   "isPartOf": {
+    "@id": "https://kentehq.com/#website"
+   },
+   "about": {
+    "@id": "https://kentehq.com/#organization"
+   },
+   "mainEntity": {
+    "@id": "https://kentehq.com/#products"
+   }
+  },
+  {
+   "@type": "SoftwareApplication",
+   "@id": "https://zoning.kentehq.com/#software",
+   "name": "Zoning Watchdog",
+   "url": "https://zoning.kentehq.com",
+   "applicationCategory": "BusinessApplication",
+   "operatingSystem": "Web",
+   "description": "Zoning Watchdog reads city planning agendas every hour and alerts real estate investors when a rezoning, variance or special use item matches their keywords, before the hearing.",
+   "audience": {
+    "@type": "BusinessAudience",
+    "audienceType": "Real estate investors"
+   },
+   "publisher": {
+    "@id": "https://kentehq.com/#organization"
+   },
+   "offers": {
+    "@type": "Offer",
+    "name": "Free plan",
+    "price": "0",
+    "priceCurrency": "USD",
+    "category": "free",
+    "url": "https://zoning.kentehq.com"
+   }
+  },
+  {
+   "@type": "ItemList",
+   "@id": "https://kentehq.com/#products",
+   "name": "Kente HQ products",
+   "numberOfItems": 5,
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "item": {
+      "@id": "https://zoning.kentehq.com/#software"
+     }
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "Invoice Collector",
+     "description": "For merchants who sell on WhatsApp. Opening soon at invoices.kentehq.com."
+    },
+    {
+     "@type": "ListItem",
+     "position": 3,
+     "name": "No-Show Recovery",
+     "description": "For dental practices. Opening soon at dental.kentehq.com.",
+     "alternateName": "Dental No-Show Recovery"
+    },
+    {
+     "@type": "ListItem",
+     "position": 4,
+     "name": "Gatekeeper",
+     "description": "For creators doing brand deals. Opening soon at creator.kentehq.com.",
+     "alternateName": "Deal Gatekeeper"
+    },
+    {
+     "@type": "ListItem",
+     "position": 5,
+     "name": "Gift Ledger",
+     "description": "For brands that gift product to creators. Opening soon at gifts.kentehq.com."
+    }
+   ]
+  },
+  {
+   "@type": "FAQPage",
+   "@id": "https://kentehq.com/#faq",
+   "url": "https://kentehq.com/#faq",
+   "inLanguage": "en",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "What is Kente HQ?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Kente HQ is a software studio based in Accra, Ghana that builds small, focused web apps for small businesses. It runs five products, each on its own kentehq.com subdomain and each built for one kind of customer. Kente HQ is a trading name of Accidental Genius LTD, a company registered in Ghana."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Who are Kente HQ products for?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Kente HQ builds for people who run small businesses and want one job done well rather than a large suite of tools. Today that means real estate investors, with Zoning Watchdog. Products for merchants who sell on WhatsApp, dental practices, creators doing brand deals and brands that gift product to creators are opening soon."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Which Kente HQ products are available today?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Zoning Watchdog is live at zoning.kentehq.com. Invoice Collector, No-Show Recovery, Gatekeeper and Gift Ledger are opening soon and have not opened yet. Each product is marked Live on this page when it opens."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "What does Zoning Watchdog do?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Zoning Watchdog reads city planning agendas every hour and alerts real estate investors when a rezoning, variance or special use item matches their keywords. The alert arrives before the hearing, so you hear about it while there is still time to act. It runs in the browser at zoning.kentehq.com and has a free plan."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "How does Zoning Watchdog compare to checking agendas yourself or using Google Alerts?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Checking agendas yourself means visiting each city's website, opening every new agenda and reading it for items that matter, which costs nothing but takes time and is easy to miss. Google Alerts is free and useful for news, but it reports pages after Google indexes them rather than reading each agenda as it is posted. Zoning Watchdog does the agenda reading every hour and only alerts you on rezoning, variance and special use items that match your keywords."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "How much do Kente HQ products cost?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Every Kente HQ product has a free plan. Paid plans are simple subscriptions in US dollars that renew monthly or yearly until you cancel, and each product lists its current prices on its own site, such as zoning.kentehq.com for Zoning Watchdog. We give 30 days' notice before a price changes."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Who processes payments for Kente HQ?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Dodo Payments is the merchant of record for Kente HQ subscriptions. That means Dodo Payments runs checkout, takes the payment and handles sales tax or VAT, and its terms apply to your purchase alongside ours."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Can I cancel a Kente HQ subscription or get a refund?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "You can cancel any Kente HQ subscription at any time from your account and keep access until the end of the period you paid for. If you were charged by mistake or the product did not work for you, email support@kentehq.com within 14 days of the charge for a full refund. Refunds go back to the original payment method through Dodo Payments, usually within 5 to 10 business days."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "How does Kente HQ handle my data?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Kente HQ collects only what each product needs to work, does not sell personal data and does not use it for advertising. Data is hosted on our own servers in the European Union. When you delete your account, we delete or anonymise your data within 30 days, except records the law requires us to keep, such as invoices."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Which countries and currencies does Kente HQ support?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Kente HQ is based in Ghana and sells to customers worldwide. Subscription prices are in US dollars, and Dodo Payments handles checkout and local tax as merchant of record. Some products work with local data, such as the city agendas Zoning Watchdog reads, so check each product's site for what it covers."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "How do I contact Kente HQ?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Email support@kentehq.com for support, billing questions or partnerships. We reply within one business day."
+     }
+    }
+   ]
+  }
+ ]
+}
 </script>
 </head>
 <body>
@@ -125,6 +353,19 @@
       </ul>
     </section>
 
+    <section class="section facts" id="how-it-works" aria-labelledby="steps-title">
+      <div class="section-head">
+        <h2 id="steps-title">How Zoning Watchdog works</h2>
+        <p>Our live product, in four steps.</p>
+      </div>
+      <ol class="steps">
+        <li><h3>Create a free account</h3><p>Sign up at <a href="https://zoning.kentehq.com">zoning.kentehq.com</a>. There is a free plan, so you can try it before paying.</p></li>
+        <li><h3>Add your keywords</h3><p>Tell Zoning Watchdog the words that matter to your deals.</p></li>
+        <li><h3>We read the agendas</h3><p>Every hour, Zoning Watchdog reads city planning agendas as they are posted.</p></li>
+        <li><h3>You hear first</h3><p>When a rezoning, variance or special use item matches your keywords, you get an alert before the hearing.</p></li>
+      </ol>
+    </section>
+
     <section class="section facts" id="how-we-work" aria-labelledby="how-title">
       <div class="section-head">
         <h2 id="how-title">How we work</h2>
@@ -153,19 +394,84 @@
         </div>
       </dl>
     </section>
+
+    <section class="section facts" id="faq" aria-labelledby="faq-title">
+      <div class="section-head">
+        <h2 id="faq-title">Questions</h2>
+        <p>Plain answers about Kente HQ, our products, billing and your data. Anything else: <a href="mailto:support@kentehq.com">support@kentehq.com</a>.</p>
+      </div>
+      <div class="faq">
+        <details open>
+          <summary><h3>What is Kente HQ?</h3></summary>
+          <p>Kente HQ is a software studio based in Accra, Ghana that builds small, focused web apps for small businesses. It runs five products, each on its own kentehq.com subdomain and each built for one kind of customer. Kente HQ is a trading name of Accidental Genius LTD, a company registered in Ghana.</p>
+        </details>
+        <details>
+          <summary><h3>Who are Kente HQ products for?</h3></summary>
+          <p>Kente HQ builds for people who run small businesses and want one job done well rather than a large suite of tools. Today that means real estate investors, with Zoning Watchdog. Products for merchants who sell on WhatsApp, dental practices, creators doing brand deals and brands that gift product to creators are opening soon.</p>
+        </details>
+        <details>
+          <summary><h3>Which Kente HQ products are available today?</h3></summary>
+          <p>Zoning Watchdog is live at zoning.kentehq.com. Invoice Collector, No-Show Recovery, Gatekeeper and Gift Ledger are opening soon and have not opened yet. Each product is marked Live on this page when it opens.</p>
+        </details>
+        <details>
+          <summary><h3>What does Zoning Watchdog do?</h3></summary>
+          <p>Zoning Watchdog reads city planning agendas every hour and alerts real estate investors when a rezoning, variance or special use item matches their keywords. The alert arrives before the hearing, so you hear about it while there is still time to act. It runs in the browser at zoning.kentehq.com and has a free plan.</p>
+        </details>
+        <details>
+          <summary><h3>How does Zoning Watchdog compare to checking agendas yourself or using Google Alerts?</h3></summary>
+          <p>Checking agendas yourself means visiting each city's website, opening every new agenda and reading it for items that matter, which costs nothing but takes time and is easy to miss. Google Alerts is free and useful for news, but it reports pages after Google indexes them rather than reading each agenda as it is posted. Zoning Watchdog does the agenda reading every hour and only alerts you on rezoning, variance and special use items that match your keywords.</p>
+        </details>
+        <details>
+          <summary><h3>How much do Kente HQ products cost?</h3></summary>
+          <p>Every Kente HQ product has a free plan. Paid plans are simple subscriptions in US dollars that renew monthly or yearly until you cancel, and each product lists its current prices on its own site, such as zoning.kentehq.com for Zoning Watchdog. We give 30 days' notice before a price changes.</p>
+        </details>
+        <details>
+          <summary><h3>Who processes payments for Kente HQ?</h3></summary>
+          <p>Dodo Payments is the merchant of record for Kente HQ subscriptions. That means Dodo Payments runs checkout, takes the payment and handles sales tax or VAT, and its terms apply to your purchase alongside ours.</p>
+        </details>
+        <details>
+          <summary><h3>Can I cancel a Kente HQ subscription or get a refund?</h3></summary>
+          <p>You can cancel any Kente HQ subscription at any time from your account and keep access until the end of the period you paid for. If you were charged by mistake or the product did not work for you, email support@kentehq.com within 14 days of the charge for a full refund. Refunds go back to the original payment method through Dodo Payments, usually within 5 to 10 business days.</p>
+        </details>
+        <details>
+          <summary><h3>How does Kente HQ handle my data?</h3></summary>
+          <p>Kente HQ collects only what each product needs to work, does not sell personal data and does not use it for advertising. Data is hosted on our own servers in the European Union. When you delete your account, we delete or anonymise your data within 30 days, except records the law requires us to keep, such as invoices.</p>
+        </details>
+        <details>
+          <summary><h3>Which countries and currencies does Kente HQ support?</h3></summary>
+          <p>Kente HQ is based in Ghana and sells to customers worldwide. Subscription prices are in US dollars, and Dodo Payments handles checkout and local tax as merchant of record. Some products work with local data, such as the city agendas Zoning Watchdog reads, so check each product's site for what it covers.</p>
+        </details>
+        <details>
+          <summary><h3>How do I contact Kente HQ?</h3></summary>
+          <p>Email support@kentehq.com for support, billing questions or partnerships. We reply within one business day.</p>
+        </details>
+      </div>
+    </section>
   </main>
 
   <footer class="site-footer">
     <div class="footer-row">
-      <span>© 2026 Kente HQ, Ghana</span>
+      <span>© 2026 Kente HQ, Accra, Ghana</span>
       <ul class="footer-links">
+        <li><a href="https://kentehq.com/">kentehq.com</a></li>
         <li><a href="/about">About</a></li>
+        <li><a href="/#faq">FAQ</a></li>
         <li><a href="/privacy">Privacy</a></li>
         <li><a href="/terms">Terms</a></li>
         <li><a href="/refunds">Refunds</a></li>
         <li><a href="mailto:support@kentehq.com">support@kentehq.com</a></li>
       </ul>
     </div>
+    <nav class="footer-row footer-products" aria-label="Kente HQ products">
+      <span>Products</span>
+      <ul class="footer-links">
+        <li><a href="https://zoning.kentehq.com">Zoning Watchdog</a></li>
+        <li><span>Invoice Collector <small>(soon)</small></span></li>
+        <li><span>No-Show Recovery <small>(soon)</small></span></li>
+        <li><span>Gatekeeper <small>(soon)</small></span></li>
+        <li><span>Gift Ledger <small>(soon)</small></span></li>
+      </ul>
+    </nav>
     <p class="legal-name">Kente HQ is a trading name of Accidental Genius LTD, registered in Ghana.</p>
   </footer>
 </div>
