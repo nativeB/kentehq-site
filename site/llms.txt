@@ -1,24 +1,27 @@
 # Kente HQ
 
-> Kente HQ is a software studio based in Accra, Ghana that builds small, focused web apps for small businesses and sells them worldwide. It runs five products, each on its own kentehq.com subdomain. Zoning Watchdog is live; the other four are opening soon. Kente HQ is a trading name of Accidental Genius LTD, a company registered in Ghana.
+> Kente HQ is a software studio based in Accra, Ghana that builds small, focused web apps for small businesses and sells them worldwide. It runs five products, each on its own kentehq.com subdomain. All five are live. Kente HQ is a trading name of Accidental Genius LTD, a company registered in Ghana.
 
 Key facts:
 
 - Legal entity: Accidental Genius LTD, registered in Ghana. Kente HQ is its trading name.
 - Location: Accra, Ghana. Customers: worldwide.
 - Support: support@kentehq.com. We reply within one business day.
-- Pricing: every product has a free plan. Paid plans are subscriptions in US dollars that renew monthly or yearly until cancelled. Each product lists its current prices on its own site.
+- Pricing: plan prices are in US dollars and renew monthly or yearly until cancelled. Four products have a free plan; No-Show Recovery has a 14-day free trial, no card needed. Prices per product are listed below.
+- In-product payments: Invoice Collector customers and Gatekeeper sponsors pay in Ghana cedis (GHS) through Paystack.
 - Billing: Dodo Payments is the merchant of record. It runs checkout, takes payment and handles sales tax or VAT.
 - Refunds: cancel any time; full refund within 14 days of a charge made by mistake or if the product did not work for you.
 - Data: hosted on our own servers in the European Union. We collect only what each product needs, do not sell personal data and do not use it for advertising.
 
 ## Products
 
-- [Zoning Watchdog](https://zoning.kentehq.com): Live. For real estate investors. Reads city planning agendas every hour and alerts you when a rezoning, variance or special use item matches your keywords, before the hearing.
-- Invoice Collector (invoices.kentehq.com): Opening soon, not yet open. For merchants who sell on WhatsApp. Type an invoice in WhatsApp; your customer gets a pay link, reminders every 48 hours and a receipt.
-- No-Show Recovery, also called Dental No-Show Recovery (dental.kentehq.com): Opening soon, not yet open. For dental practices. Text a cancelled slot to your waitlist in one tap; the first patient to reply YES is booked.
-- Gatekeeper, also called Deal Gatekeeper (creator.kentehq.com): Opening soon, not yet open. For creators doing brand deals. Sponsors review watermarked previews, sign your terms and fund escrow; clean files unlock when the money lands.
-- Gift Ledger (gifts.kentehq.com): Opening soon, not yet open. For brands that gift product to creators. Follows each PR gift from Shopify order to delivery to the creator's post.
+All five products are live and run in the browser.
+
+- [Zoning Watchdog](https://zoning.kentehq.com): Live. For real estate investors. Reads city planning agendas every hour and alerts you when a rezoning, variance or special use item matches your keywords, before the hearing. Scout free (1 market, 5 keywords, daily digest); Investor $49/month or $490/year; Desk $199/month.
+- [Invoice Collector](https://invoices.kentehq.com): Live. For merchants in Ghana who sell on WhatsApp; Ghana only. Type an invoice in WhatsApp; your customer gets a pay link, reminders every 48 hours and a receipt, and pays in GHS through Paystack. Starter free (10 invoices/month); Shop $9/month or $90/year.
+- [No-Show Recovery](https://dental.kentehq.com), also called Dental No-Show Recovery: Live. For US dental practices. Text a cancelled slot to your waitlist in one tap; the first patient to reply YES is booked and everyone else is told it was taken. 14-day free trial, no card; Front desk $99/month; Whole practice $179/month per location.
+- [Gatekeeper](https://creator.kentehq.com), also called Deal Gatekeeper: Live. Escrow for creators doing sponsor deals. Sponsors review watermarked previews, sign your terms and fund escrow in GHS through Paystack; clean files unlock when the money lands. Solo free (5% platform fee per funded deal, 3 active deals); Pro $19/month or $190/year (2% fee).
+- [Gift Ledger](https://gifts.kentehq.com): Live. For Shopify brands that gift product to creators. Follows each PR gift from Shopify order to delivery to the creator's post and shows what each verified post cost. Starter free (25 gifts/month); Growth $79/month or $790/year (300 gifts/month); Scale $199/month (unlimited).
 
 ## How Zoning Watchdog works
 

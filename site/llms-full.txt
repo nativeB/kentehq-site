@@ -22,21 +22,23 @@ For real estate investors
 
 We read city planning agendas every hour and alert you when a rezoning, variance or special use matches your keywords, before the hearing.
 
+Address: zoning.kentehq.com
+
 #### Invoice Collector
 
-Status: Opening soon
+Status: Live
 
-For merchants who sell on WhatsApp
+For merchants in Ghana who sell on WhatsApp
 
-Type an invoice in WhatsApp. Your customer gets a pay link, polite reminders every 48 hours and a receipt, and the money settles straight to your account.
+Type an invoice in WhatsApp. Your customer gets a pay link, polite reminders every 48 hours and a receipt, and pays in cedis through Paystack.
 
 Address: invoices.kentehq.com
 
 #### No-Show Recovery
 
-Status: Opening soon
+Status: Live
 
-For dental practices
+For US dental practices
 
 When a patient cancels, text the opening to your waitlist in one tap. The first patient to reply YES is booked, and everyone else is told it was taken.
 
@@ -44,19 +46,19 @@ Address: dental.kentehq.com
 
 #### Gatekeeper
 
-Status: Opening soon
+Status: Live
 
-For creators doing brand deals
+For creators doing sponsor deals
 
-Sponsors review watermarked previews, sign your terms and fund escrow. The clean files unlock when the money lands.
+Sponsors review watermarked previews, sign your terms and fund escrow in cedis through Paystack. The clean files unlock when the money lands.
 
 Address: creator.kentehq.com
 
 #### Gift Ledger
 
-Status: Opening soon
+Status: Live
 
-For brands that gift product to creators
+For Shopify brands that gift product to creators
 
 Follow every PR gift from Shopify order to delivery to the creator's post, and see what each verified post cost you.
 
@@ -64,7 +66,7 @@ Address: gifts.kentehq.com
 
 ### How Zoning Watchdog works
 
-Our live product, in four steps.
+Our first product, in four steps.
 
 1. **Create a free account.** Sign up at [zoning.kentehq.com](https://zoning.kentehq.com). There is a free plan, so you can try it before paying.
 
@@ -78,7 +80,7 @@ Our live product, in four steps.
 
 The same rules apply to every product.
 
-**Billing:** Every product has a free plan and simple monthly subscriptions in US dollars. Payments are processed by Dodo Payments as merchant of record, and you can cancel any time from your account.
+**Billing:** Four products have a free plan, and No-Show Recovery starts with a 14-day free trial. Paid plans are monthly or yearly subscriptions in US dollars, processed by Dodo Payments as merchant of record, and you can cancel any time from your account.
 
 **Your data:** We collect only what each product needs to work, never sell it, and delete it when you close your account. Hosting is on our own servers in the European Union.
 
@@ -98,11 +100,11 @@ Kente HQ is a software studio based in Accra, Ghana that builds small, focused w
 
 #### Who are Kente HQ products for?
 
-Kente HQ builds for people who run small businesses and want one job done well rather than a large suite of tools. Today that means real estate investors, with Zoning Watchdog. Products for merchants who sell on WhatsApp, dental practices, creators doing brand deals and brands that gift product to creators are opening soon.
+Kente HQ builds for people who run small businesses and want one job done well rather than a large suite of tools: real estate investors with Zoning Watchdog, merchants in Ghana who sell on WhatsApp with Invoice Collector, US dental practices with No-Show Recovery, creators doing sponsor deals with Gatekeeper, and Shopify brands that gift product to creators with Gift Ledger.
 
 #### Which Kente HQ products are available today?
 
-Zoning Watchdog is live at zoning.kentehq.com. Invoice Collector, No-Show Recovery, Gatekeeper and Gift Ledger are opening soon and have not opened yet. Each product is marked Live on this page when it opens.
+All five are live and run in the browser: Zoning Watchdog at zoning.kentehq.com, Invoice Collector at invoices.kentehq.com, No-Show Recovery at dental.kentehq.com, Gatekeeper at creator.kentehq.com and Gift Ledger at gifts.kentehq.com.
 
 #### What does Zoning Watchdog do?
 
@@ -112,13 +114,29 @@ Zoning Watchdog reads city planning agendas every hour and alerts real estate in
 
 Checking agendas yourself means visiting each city's website, opening every new agenda and reading it for items that matter, which costs nothing but takes time and is easy to miss. Google Alerts is free and useful for news, but it reports pages after Google indexes them rather than reading each agenda as it is posted. Zoning Watchdog does the agenda reading every hour and only alerts you on rezoning, variance and special use items that match your keywords.
 
+#### What does Invoice Collector do?
+
+Invoice Collector is for merchants in Ghana who sell on WhatsApp. You type an invoice in WhatsApp, and your customer gets a pay link, polite reminders every 48 hours and a receipt. Customers pay in Ghana cedis (GHS) through Paystack, and it works in Ghana only. It runs at invoices.kentehq.com and has a free plan.
+
+#### What does No-Show Recovery do?
+
+No-Show Recovery is for dental practices in the United States. When a patient cancels, you text the open slot to your waitlist in one tap; the first patient to reply YES is booked, and everyone else is told it was taken. It runs at dental.kentehq.com and starts with a 14-day free trial, no card needed.
+
+#### What does Gatekeeper do?
+
+Gatekeeper is escrow for creators doing sponsor deals. Sponsors review watermarked previews, sign your terms and fund escrow in Ghana cedis (GHS) through Paystack, and the clean files unlock when the money lands. It runs at creator.kentehq.com and has a free plan.
+
+#### What does Gift Ledger do?
+
+Gift Ledger is for Shopify brands that gift product to creators. It follows every PR gift from Shopify order to delivery to the creator's post, and shows what each verified post cost you. It runs at gifts.kentehq.com and has a free plan.
+
 #### How much do Kente HQ products cost?
 
-Every Kente HQ product has a free plan. Paid plans are simple subscriptions in US dollars that renew monthly or yearly until you cancel, and each product lists its current prices on its own site, such as zoning.kentehq.com for Zoning Watchdog. We give 30 days' notice before a price changes.
+Plan prices are in US dollars and renew monthly or yearly until you cancel. Zoning Watchdog: Scout is free, Investor is $49 a month or $490 a year, and Desk is $199 a month. Invoice Collector: Starter is free for 10 invoices a month, and Shop is $9 a month or $90 a year. No-Show Recovery: Front desk is $99 a month and Whole practice is $179 a month per location, with a 14-day free trial and no card needed. Gatekeeper: Solo is free with a 5% platform fee per funded deal, and Pro is $19 a month or $190 a year with a 2% fee. Gift Ledger: Starter is free for 25 gifts a month, Growth is $79 a month or $790 a year, and Scale is $199 a month. We give 30 days' notice before a price changes.
 
 #### Who processes payments for Kente HQ?
 
-Dodo Payments is the merchant of record for Kente HQ subscriptions. That means Dodo Payments runs checkout, takes the payment and handles sales tax or VAT, and its terms apply to your purchase alongside ours.
+Dodo Payments is the merchant of record for Kente HQ subscriptions. That means Dodo Payments runs checkout, takes the payment and handles sales tax or VAT, and its terms apply to your purchase alongside ours. Money that moves inside a product is separate: Invoice Collector customers pay merchants, and Gatekeeper sponsors fund deals, in Ghana cedis through Paystack.
 
 #### Can I cancel a Kente HQ subscription or get a refund?
 
@@ -130,7 +148,7 @@ Kente HQ collects only what each product needs to work, does not sell personal d
 
 #### Which countries and currencies does Kente HQ support?
 
-Kente HQ is based in Ghana and sells to customers worldwide. Subscription prices are in US dollars, and Dodo Payments handles checkout and local tax as merchant of record. Some products work with local data, such as the city agendas Zoning Watchdog reads, so check each product's site for what it covers.
+Kente HQ is based in Ghana and sells to customers worldwide. Subscription prices are in US dollars, and Dodo Payments handles checkout and local tax as merchant of record. Some products are built for one place: Invoice Collector works in Ghana only, Gatekeeper deals are paid in Ghana cedis, No-Show Recovery is for US dental practices, and Zoning Watchdog covers the cities whose agendas it reads.
 
 #### How do I contact Kente HQ?
 
@@ -152,11 +170,23 @@ That is how we build. Each product is a strip: it does one job for one kind of c
 
 ### What we make
 
-[Zoning Watchdog](https://zoning.kentehq.com) is live for real estate investors. Invoice Collector, No-Show Recovery, Gatekeeper and Gift Ledger are opening soon. See [all five products](https://kentehq.com/#products), [how Zoning Watchdog works](https://kentehq.com/#how-it-works) and [common questions](https://kentehq.com/#faq).
+All five products are live:
+
+[Zoning Watchdog](https://zoning.kentehq.com), for real estate investors: reads city planning agendas every hour and alerts you when a rezoning, variance or special use item matches your keywords, before the hearing.
+
+[Invoice Collector](https://invoices.kentehq.com), for merchants in Ghana who sell on WhatsApp: type an invoice in WhatsApp, and your customer gets a pay link, reminders and a receipt, paying in Ghana cedis through Paystack.
+
+[No-Show Recovery](https://dental.kentehq.com), for US dental practices: text a cancelled slot to your waitlist in one tap, and the first patient to reply YES is booked.
+
+[Gatekeeper](https://creator.kentehq.com), for creators doing sponsor deals: escrow where sponsors review watermarked previews, sign your terms and fund the deal in Ghana cedis through Paystack before the clean files unlock.
+
+[Gift Ledger](https://gifts.kentehq.com), for Shopify brands that gift product to creators: follows each PR gift from Shopify order to delivery to the creator's post.
+
+See [all five products](https://kentehq.com/#products), [how Zoning Watchdog works](https://kentehq.com/#how-it-works) and [common questions](https://kentehq.com/#faq).
 
 ### How we run them
 
-Every product has a free plan and simple monthly subscriptions in US dollars. Payments are processed by Dodo Payments as merchant of record. We collect only what each product needs, never sell it, and delete it when you close your account. Read the [privacy policy](https://kentehq.com/privacy), [terms](https://kentehq.com/terms) and [refund policy](https://kentehq.com/refunds).
+Four products have a free plan, and No-Show Recovery starts with a 14-day free trial. Paid plans are monthly or yearly subscriptions in US dollars. Payments are processed by Dodo Payments as merchant of record. We collect only what each product needs, never sell it, and delete it when you close your account. Read the [privacy policy](https://kentehq.com/privacy), [terms](https://kentehq.com/terms) and [refund policy](https://kentehq.com/refunds).
 
 ### Company
 

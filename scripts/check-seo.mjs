@@ -21,7 +21,7 @@ const PRIVATE_PATHS = ["/app/", "/admin/", "/api/", "/pay/", "/review/", "/reset
 // Copy that must be in the raw HTML (what a crawler sees without running JavaScript).
 const REQUIRED_COPY = {
   "/": ["Kente HQ is a product studio in Ghana", "Zoning Watchdog", "Invoice Collector", "No-Show Recovery",
-    "Gatekeeper", "Gift Ledger", "Opening soon", "Live", "How Zoning Watchdog works", "Dodo Payments as merchant of record",
+    "Gatekeeper", "Gift Ledger", "Live", "How Zoning Watchdog works", "Dodo Payments as merchant of record",
     "support@kentehq.com", "Accidental Genius LTD", "What is Kente HQ?", "How much do Kente HQ products cost?"],
   "/about": ["About Kente HQ", "Accidental Genius LTD", "Accra, Ghana", "support@kentehq.com"],
   "/privacy": ["Privacy policy", "What we collect", "European Union", "Your rights"],
@@ -80,6 +80,8 @@ function checkPage(path, html, seen) {
 
   const text = visibleText(html);
   for (const copy of REQUIRED_COPY[path] || []) ok(text.includes(copy), where, `copy not in raw HTML: "${copy}"`);
+  // All five products are live: nothing may still say they are coming.
+  ok(!/opening soon|\(soon\)|not yet open/i.test(text), where, "page still says a product is opening soon");
 
   const nodes = jsonLd(html, where);
   const types = nodes.map((n) => n["@type"]);
@@ -91,10 +93,21 @@ function checkPage(path, html, seen) {
     ok(org?.legalName === "Accidental Genius LTD", where, "Organization.legalName");
     ok(org?.contactPoint?.some((c) => c.email === "support@kentehq.com"), where, "Organization.contactPoint email");
     ok(org?.logo?.url, where, "Organization.logo");
-    for (const app of nodes.filter((n) => n["@type"] === "SoftwareApplication")) {
+    const apps = nodes.filter((n) => n["@type"] === "SoftwareApplication");
+    ok(apps.length === 5, where, `expected 5 SoftwareApplication nodes, found ${apps.length}`);
+    // Every product card is live and links to its own app.
+    const cards = [...html.matchAll(/<li class="product[^"]*">([\s\S]*?)<\/li>/g)].map((m) => m[1]);
+    ok(cards.length === 5, where, `expected 5 product cards, found ${cards.length}`);
+    for (const c of cards) {
+      const name = (c.match(/<h3>([^<]+)<\/h3>/) || [])[1];
+      ok(/<span class="status status-live">Live<\/span>/.test(c), where, `${name} card is not marked Live`);
+      ok(apps.some((a) => a.name === name && c.includes(`href="${a.url}"`) && c.includes(`Open ${name}`)), where, `${name} card needs an "Open ${name}" link to its app`);
+    }
+    for (const app of apps) {
       ok(app.name && app.applicationCategory && app.operatingSystem === "Web", where, `SoftwareApplication ${app.name} fields`);
       const offers = [].concat(app.offers || []);
       ok(offers.length && offers.every((o) => o.price !== undefined && /^[A-Z]{3}$/.test(o.priceCurrency)), where, `${app.name} offers need price + priceCurrency`);
+      ok(app.applicationCategory === "BusinessApplication" && /^https:\/\/[a-z]+\.kentehq\.com$/.test(app.url || ""), where, `${app.name} needs BusinessApplication + its kentehq.com url`);
     }
     // FAQPage must mirror the visible FAQ exactly, question and answer.
     const faq = nodes.find((n) => n["@type"] === "FAQPage");

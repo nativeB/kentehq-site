@@ -86,24 +86,26 @@ p { margin: 0; }
 .section-head { max-width: 60ch; margin-bottom: 40px; }
 .section-head p { margin-top: 14px; color: var(--muted); font-size: 18px; }
 
-/* Products: one featured live card + 2x2 grid of opening-soon cards */
+/* Products: one featured card + a 2x2 grid; every card is live, with its button pinned to the bottom so rows line up */
 .products { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; margin: 0; padding: 0; list-style: none; }
 .product {
   --sw: 18px; position: relative; overflow: hidden;
   padding: 26px 26px 26px calc(var(--sw) + 24px);
   background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius);
+  display: flex; flex-direction: column;
 }
+.product .actions { margin-top: auto; padding-top: 22px; }
 .product .swatch { position: absolute; inset: 0 auto 0 0; width: var(--sw); height: 100%; }
 .product .who { font-size: 15px; color: var(--muted); margin-top: 6px; }
 .product .value { margin-top: 14px; max-width: 58ch; }
-.product .meta { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 16px; margin-top: 18px; font-size: 14px; color: var(--muted); }
+.product .meta { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 16px; margin-top: 12px; font-size: 14px; color: var(--muted); }
 .product .domain { font-variant-numeric: tabular-nums; overflow-wrap: anywhere; }
 .product-top { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 8px 16px; }
 .product-top h3 { min-width: 0; max-width: 100%; overflow-wrap: anywhere; hyphens: auto; }
 .featured { grid-column: 1 / -1; --sw: 28px; }
 .featured h3 { font-size: clamp(26px, 3vw, 32px); }
 .featured .value { font-size: 18px; }
-.featured .actions { margin-top: 24px; }
+.featured .actions { padding-top: 24px; }
 
 .status { display: inline-flex; align-items: center; gap: 7px; min-height: 28px; padding: 0 12px; border-radius: 999px; font-size: 13px; font-weight: 600; max-width: 100%; border: 1px solid var(--line); color: var(--muted); }
 .status-live { border-color: transparent; background: var(--accent-soft); color: var(--accent); }
@@ -138,6 +140,8 @@ p { margin: 0; }
 .doc h2 { font-size: 22px; margin: 36px 0 8px; letter-spacing: -0.015em; }
 .doc p + p { margin-top: 14px; }
 .doc .note { margin-top: 14px; color: var(--muted); font-size: 15px; }
+.doc ul { margin: 14px 0 0; padding-inline-start: 1.2em; }
+.doc li + li { margin-top: 10px; }
 .doc .lead { margin-top: 18px; font-size: 19px; color: var(--muted); }
 
 /* Mobile collapse */

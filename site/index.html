@@ -111,14 +111,324 @@
    "publisher": {
     "@id": "https://kentehq.com/#organization"
    },
-   "offers": {
-    "@type": "Offer",
-    "name": "Free plan",
-    "price": "0",
-    "priceCurrency": "USD",
-    "category": "free",
-    "url": "https://zoning.kentehq.com"
-   }
+   "offers": [
+    {
+     "@type": "Offer",
+     "name": "Scout",
+     "price": "0",
+     "priceCurrency": "USD",
+     "description": "Free: 1 market, 5 keywords, daily digest.",
+     "category": "free",
+     "url": "https://zoning.kentehq.com"
+    },
+    {
+     "@type": "Offer",
+     "name": "Investor (monthly)",
+     "price": "49",
+     "priceCurrency": "USD",
+     "description": "Investor plan, billed monthly.",
+     "category": "subscription",
+     "priceSpecification": {
+      "@type": "UnitPriceSpecification",
+      "price": "49",
+      "priceCurrency": "USD",
+      "billingDuration": "P1M",
+      "unitText": "MONTH"
+     },
+     "url": "https://zoning.kentehq.com"
+    },
+    {
+     "@type": "Offer",
+     "name": "Investor (yearly)",
+     "price": "490",
+     "priceCurrency": "USD",
+     "description": "Investor plan, billed yearly.",
+     "category": "subscription",
+     "priceSpecification": {
+      "@type": "UnitPriceSpecification",
+      "price": "490",
+      "priceCurrency": "USD",
+      "billingDuration": "P1Y",
+      "unitText": "YEAR"
+     },
+     "url": "https://zoning.kentehq.com"
+    },
+    {
+     "@type": "Offer",
+     "name": "Desk",
+     "price": "199",
+     "priceCurrency": "USD",
+     "description": "Desk plan, billed monthly.",
+     "category": "subscription",
+     "priceSpecification": {
+      "@type": "UnitPriceSpecification",
+      "price": "199",
+      "priceCurrency": "USD",
+      "billingDuration": "P1M",
+      "unitText": "MONTH"
+     },
+     "url": "https://zoning.kentehq.com"
+    }
+   ]
+  },
+  {
+   "@type": "SoftwareApplication",
+   "@id": "https://invoices.kentehq.com/#software",
+   "name": "Invoice Collector",
+   "url": "https://invoices.kentehq.com",
+   "applicationCategory": "BusinessApplication",
+   "operatingSystem": "Web",
+   "description": "Invoice Collector lets merchants in Ghana who sell on WhatsApp type an invoice in WhatsApp; the customer gets a pay link, reminders every 48 hours and a receipt, and pays in Ghana cedis through Paystack. Ghana only.",
+   "audience": {
+    "@type": "BusinessAudience",
+    "audienceType": "Merchants in Ghana who sell on WhatsApp"
+   },
+   "publisher": {
+    "@id": "https://kentehq.com/#organization"
+   },
+   "offers": [
+    {
+     "@type": "Offer",
+     "name": "Starter",
+     "price": "0",
+     "priceCurrency": "USD",
+     "description": "Free: 10 invoices a month.",
+     "category": "free",
+     "url": "https://invoices.kentehq.com"
+    },
+    {
+     "@type": "Offer",
+     "name": "Shop (monthly)",
+     "price": "9",
+     "priceCurrency": "USD",
+     "description": "Shop plan, billed monthly.",
+     "category": "subscription",
+     "priceSpecification": {
+      "@type": "UnitPriceSpecification",
+      "price": "9",
+      "priceCurrency": "USD",
+      "billingDuration": "P1M",
+      "unitText": "MONTH"
+     },
+     "url": "https://invoices.kentehq.com"
+    },
+    {
+     "@type": "Offer",
+     "name": "Shop (yearly)",
+     "price": "90",
+     "priceCurrency": "USD",
+     "description": "Shop plan, billed yearly.",
+     "category": "subscription",
+     "priceSpecification": {
+      "@type": "UnitPriceSpecification",
+      "price": "90",
+      "priceCurrency": "USD",
+      "billingDuration": "P1Y",
+      "unitText": "YEAR"
+     },
+     "url": "https://invoices.kentehq.com"
+    }
+   ]
+  },
+  {
+   "@type": "SoftwareApplication",
+   "@id": "https://dental.kentehq.com/#software",
+   "name": "No-Show Recovery",
+   "alternateName": "Dental No-Show Recovery",
+   "url": "https://dental.kentehq.com",
+   "applicationCategory": "BusinessApplication",
+   "operatingSystem": "Web",
+   "description": "No-Show Recovery lets US dental practices text a cancelled slot to their waitlist in one tap; the first patient to reply YES is booked and everyone else is told it was taken.",
+   "audience": {
+    "@type": "BusinessAudience",
+    "audienceType": "US dental practices"
+   },
+   "publisher": {
+    "@id": "https://kentehq.com/#organization"
+   },
+   "offers": [
+    {
+     "@type": "Offer",
+     "name": "14-day free trial",
+     "price": "0",
+     "priceCurrency": "USD",
+     "category": "trial",
+     "description": "14-day free trial, no card needed.",
+     "eligibleDuration": {
+      "@type": "QuantitativeValue",
+      "value": 14,
+      "unitCode": "DAY"
+     },
+     "url": "https://dental.kentehq.com"
+    },
+    {
+     "@type": "Offer",
+     "name": "Front desk",
+     "price": "99",
+     "priceCurrency": "USD",
+     "description": "Front desk plan, billed monthly.",
+     "category": "subscription",
+     "priceSpecification": {
+      "@type": "UnitPriceSpecification",
+      "price": "99",
+      "priceCurrency": "USD",
+      "billingDuration": "P1M",
+      "unitText": "MONTH"
+     },
+     "url": "https://dental.kentehq.com"
+    },
+    {
+     "@type": "Offer",
+     "name": "Whole practice",
+     "price": "179",
+     "priceCurrency": "USD",
+     "description": "Whole practice plan, billed monthly per location.",
+     "category": "subscription",
+     "priceSpecification": {
+      "@type": "UnitPriceSpecification",
+      "price": "179",
+      "priceCurrency": "USD",
+      "billingDuration": "P1M",
+      "unitText": "MONTH"
+     },
+     "url": "https://dental.kentehq.com"
+    }
+   ]
+  },
+  {
+   "@type": "SoftwareApplication",
+   "@id": "https://creator.kentehq.com/#software",
+   "name": "Gatekeeper",
+   "alternateName": "Deal Gatekeeper",
+   "url": "https://creator.kentehq.com",
+   "applicationCategory": "BusinessApplication",
+   "operatingSystem": "Web",
+   "description": "Gatekeeper is escrow for creator-sponsor deals: sponsors review watermarked previews, sign the creator's terms and fund escrow in Ghana cedis through Paystack, and the clean files unlock when the money lands.",
+   "audience": {
+    "@type": "BusinessAudience",
+    "audienceType": "Creators doing sponsor deals"
+   },
+   "publisher": {
+    "@id": "https://kentehq.com/#organization"
+   },
+   "offers": [
+    {
+     "@type": "Offer",
+     "name": "Solo",
+     "price": "0",
+     "priceCurrency": "USD",
+     "description": "Free: 5% platform fee per funded deal, 3 active deals.",
+     "category": "free",
+     "url": "https://creator.kentehq.com"
+    },
+    {
+     "@type": "Offer",
+     "name": "Pro (monthly)",
+     "price": "19",
+     "priceCurrency": "USD",
+     "description": "Pro plan, billed monthly, 2% platform fee per funded deal.",
+     "category": "subscription",
+     "priceSpecification": {
+      "@type": "UnitPriceSpecification",
+      "price": "19",
+      "priceCurrency": "USD",
+      "billingDuration": "P1M",
+      "unitText": "MONTH"
+     },
+     "url": "https://creator.kentehq.com"
+    },
+    {
+     "@type": "Offer",
+     "name": "Pro (yearly)",
+     "price": "190",
+     "priceCurrency": "USD",
+     "description": "Pro plan, billed yearly, 2% platform fee per funded deal.",
+     "category": "subscription",
+     "priceSpecification": {
+      "@type": "UnitPriceSpecification",
+      "price": "190",
+      "priceCurrency": "USD",
+      "billingDuration": "P1Y",
+      "unitText": "YEAR"
+     },
+     "url": "https://creator.kentehq.com"
+    }
+   ]
+  },
+  {
+   "@type": "SoftwareApplication",
+   "@id": "https://gifts.kentehq.com/#software",
+   "name": "Gift Ledger",
+   "url": "https://gifts.kentehq.com",
+   "applicationCategory": "BusinessApplication",
+   "operatingSystem": "Web",
+   "description": "Gift Ledger follows every PR gift a Shopify brand sends to creators, from Shopify order to delivery to the creator's post, and shows what each verified post cost.",
+   "audience": {
+    "@type": "BusinessAudience",
+    "audienceType": "Shopify brands that gift product to creators"
+   },
+   "publisher": {
+    "@id": "https://kentehq.com/#organization"
+   },
+   "offers": [
+    {
+     "@type": "Offer",
+     "name": "Starter",
+     "price": "0",
+     "priceCurrency": "USD",
+     "description": "Free: 25 gifts a month.",
+     "category": "free",
+     "url": "https://gifts.kentehq.com"
+    },
+    {
+     "@type": "Offer",
+     "name": "Growth (monthly)",
+     "price": "79",
+     "priceCurrency": "USD",
+     "description": "Growth plan, billed monthly, 300 gifts a month.",
+     "category": "subscription",
+     "priceSpecification": {
+      "@type": "UnitPriceSpecification",
+      "price": "79",
+      "priceCurrency": "USD",
+      "billingDuration": "P1M",
+      "unitText": "MONTH"
+     },
+     "url": "https://gifts.kentehq.com"
+    },
+    {
+     "@type": "Offer",
+     "name": "Growth (yearly)",
+     "price": "790",
+     "priceCurrency": "USD",
+     "description": "Growth plan, billed yearly, 300 gifts a month.",
+     "category": "subscription",
+     "priceSpecification": {
+      "@type": "UnitPriceSpecification",
+      "price": "790",
+      "priceCurrency": "USD",
+      "billingDuration": "P1Y",
+      "unitText": "YEAR"
+     },
+     "url": "https://gifts.kentehq.com"
+    },
+    {
+     "@type": "Offer",
+     "name": "Scale",
+     "price": "199",
+     "priceCurrency": "USD",
+     "description": "Scale plan, billed monthly, unlimited gifts.",
+     "category": "subscription",
+     "priceSpecification": {
+      "@type": "UnitPriceSpecification",
+      "price": "199",
+      "priceCurrency": "USD",
+      "billingDuration": "P1M",
+      "unitText": "MONTH"
+     },
+     "url": "https://gifts.kentehq.com"
+    }
+   ]
   },
   {
    "@type": "ItemList",
@@ -136,28 +446,30 @@
     {
      "@type": "ListItem",
      "position": 2,
-     "name": "Invoice Collector",
-     "description": "For merchants who sell on WhatsApp. Opening soon at invoices.kentehq.com."
+     "item": {
+      "@id": "https://invoices.kentehq.com/#software"
+     }
     },
     {
      "@type": "ListItem",
      "position": 3,
-     "name": "No-Show Recovery",
-     "description": "For dental practices. Opening soon at dental.kentehq.com.",
-     "alternateName": "Dental No-Show Recovery"
+     "item": {
+      "@id": "https://dental.kentehq.com/#software"
+     }
     },
     {
      "@type": "ListItem",
      "position": 4,
-     "name": "Gatekeeper",
-     "description": "For creators doing brand deals. Opening soon at creator.kentehq.com.",
-     "alternateName": "Deal Gatekeeper"
+     "item": {
+      "@id": "https://creator.kentehq.com/#software"
+     }
     },
     {
      "@type": "ListItem",
      "position": 5,
-     "name": "Gift Ledger",
-     "description": "For brands that gift product to creators. Opening soon at gifts.kentehq.com."
+     "item": {
+      "@id": "https://gifts.kentehq.com/#software"
+     }
     }
    ]
   },
@@ -180,7 +492,7 @@
      "name": "Who are Kente HQ products for?",
      "acceptedAnswer": {
       "@type": "Answer",
-      "text": "Kente HQ builds for people who run small businesses and want one job done well rather than a large suite of tools. Today that means real estate investors, with Zoning Watchdog. Products for merchants who sell on WhatsApp, dental practices, creators doing brand deals and brands that gift product to creators are opening soon."
+      "text": "Kente HQ builds for people who run small businesses and want one job done well rather than a large suite of tools: real estate investors with Zoning Watchdog, merchants in Ghana who sell on WhatsApp with Invoice Collector, US dental practices with No-Show Recovery, creators doing sponsor deals with Gatekeeper, and Shopify brands that gift product to creators with Gift Ledger."
      }
     },
     {
@@ -188,7 +500,7 @@
      "name": "Which Kente HQ products are available today?",
      "acceptedAnswer": {
       "@type": "Answer",
-      "text": "Zoning Watchdog is live at zoning.kentehq.com. Invoice Collector, No-Show Recovery, Gatekeeper and Gift Ledger are opening soon and have not opened yet. Each product is marked Live on this page when it opens."
+      "text": "All five are live and run in the browser: Zoning Watchdog at zoning.kentehq.com, Invoice Collector at invoices.kentehq.com, No-Show Recovery at dental.kentehq.com, Gatekeeper at creator.kentehq.com and Gift Ledger at gifts.kentehq.com."
      }
     },
     {
@@ -209,10 +521,42 @@
     },
     {
      "@type": "Question",
+     "name": "What does Invoice Collector do?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Invoice Collector is for merchants in Ghana who sell on WhatsApp. You type an invoice in WhatsApp, and your customer gets a pay link, polite reminders every 48 hours and a receipt. Customers pay in Ghana cedis (GHS) through Paystack, and it works in Ghana only. It runs at invoices.kentehq.com and has a free plan."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "What does No-Show Recovery do?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "No-Show Recovery is for dental practices in the United States. When a patient cancels, you text the open slot to your waitlist in one tap; the first patient to reply YES is booked, and everyone else is told it was taken. It runs at dental.kentehq.com and starts with a 14-day free trial, no card needed."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "What does Gatekeeper do?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Gatekeeper is escrow for creators doing sponsor deals. Sponsors review watermarked previews, sign your terms and fund escrow in Ghana cedis (GHS) through Paystack, and the clean files unlock when the money lands. It runs at creator.kentehq.com and has a free plan."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "What does Gift Ledger do?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Gift Ledger is for Shopify brands that gift product to creators. It follows every PR gift from Shopify order to delivery to the creator's post, and shows what each verified post cost you. It runs at gifts.kentehq.com and has a free plan."
+     }
+    },
+    {
+     "@type": "Question",
      "name": "How much do Kente HQ products cost?",
      "acceptedAnswer": {
       "@type": "Answer",
-      "text": "Every Kente HQ product has a free plan. Paid plans are simple subscriptions in US dollars that renew monthly or yearly until you cancel, and each product lists its current prices on its own site, such as zoning.kentehq.com for Zoning Watchdog. We give 30 days' notice before a price changes."
+      "text": "Plan prices are in US dollars and renew monthly or yearly until you cancel. Zoning Watchdog: Scout is free, Investor is $49 a month or $490 a year, and Desk is $199 a month. Invoice Collector: Starter is free for 10 invoices a month, and Shop is $9 a month or $90 a year. No-Show Recovery: Front desk is $99 a month and Whole practice is $179 a month per location, with a 14-day free trial and no card needed. Gatekeeper: Solo is free with a 5% platform fee per funded deal, and Pro is $19 a month or $190 a year with a 2% fee. Gift Ledger: Starter is free for 25 gifts a month, Growth is $79 a month or $790 a year, and Scale is $199 a month. We give 30 days' notice before a price changes."
      }
     },
     {
@@ -220,7 +564,7 @@
      "name": "Who processes payments for Kente HQ?",
      "acceptedAnswer": {
       "@type": "Answer",
-      "text": "Dodo Payments is the merchant of record for Kente HQ subscriptions. That means Dodo Payments runs checkout, takes the payment and handles sales tax or VAT, and its terms apply to your purchase alongside ours."
+      "text": "Dodo Payments is the merchant of record for Kente HQ subscriptions. That means Dodo Payments runs checkout, takes the payment and handles sales tax or VAT, and its terms apply to your purchase alongside ours. Money that moves inside a product is separate: Invoice Collector customers pay merchants, and Gatekeeper sponsors fund deals, in Ghana cedis through Paystack."
      }
     },
     {
@@ -244,7 +588,7 @@
      "name": "Which countries and currencies does Kente HQ support?",
      "acceptedAnswer": {
       "@type": "Answer",
-      "text": "Kente HQ is based in Ghana and sells to customers worldwide. Subscription prices are in US dollars, and Dodo Payments handles checkout and local tax as merchant of record. Some products work with local data, such as the city agendas Zoning Watchdog reads, so check each product's site for what it covers."
+      "text": "Kente HQ is based in Ghana and sells to customers worldwide. Subscription prices are in US dollars, and Dodo Payments handles checkout and local tax as merchant of record. Some products are built for one place: Invoice Collector works in Ghana only, Gatekeeper deals are paid in Ghana cedis, No-Show Recovery is for US dental practices, and Zoning Watchdog covers the cities whose agendas it reads."
      }
     },
     {
@@ -321,33 +665,46 @@
           <div class="actions">
             <a class="btn btn-primary" href="https://zoning.kentehq.com"><span>Open Zoning Watchdog</span><span class="arrow" aria-hidden="true">↗</span></a>
           </div>
+          <p class="meta"><span class="domain">zoning.kentehq.com</span></p>
         </li>
         <li class="product">
           <svg class="swatch" viewBox="0 0 40 2000" preserveAspectRatio="xMidYMin slice" aria-hidden="true" focusable="false"><rect width="40" height="2000" fill="url(#s-invoices)"/></svg>
-          <div class="product-top"><h3>Invoice Collector</h3><span class="status">Opening soon</span></div>
-          <p class="who">For merchants who sell on WhatsApp</p>
-          <p class="value">Type an invoice in WhatsApp. Your customer gets a pay link, polite reminders every 48 hours and a receipt, and the money settles straight to your account.</p>
+          <div class="product-top"><h3>Invoice Collector</h3><span class="status status-live">Live</span></div>
+          <p class="who">For merchants in Ghana who sell on WhatsApp</p>
+          <p class="value">Type an invoice in WhatsApp. Your customer gets a pay link, polite reminders every 48 hours and a receipt, and pays in cedis through Paystack.</p>
+          <div class="actions">
+            <a class="btn btn-primary" href="https://invoices.kentehq.com"><span>Open Invoice Collector</span><span class="arrow" aria-hidden="true">↗</span></a>
+          </div>
           <p class="meta"><span class="domain">invoices.kentehq.com</span></p>
         </li>
         <li class="product">
           <svg class="swatch" viewBox="0 0 40 2000" preserveAspectRatio="xMidYMin slice" aria-hidden="true" focusable="false"><rect width="40" height="2000" fill="url(#s-dental)"/></svg>
-          <div class="product-top"><h3>No-Show Recovery</h3><span class="status">Opening soon</span></div>
-          <p class="who">For dental practices</p>
+          <div class="product-top"><h3>No-Show Recovery</h3><span class="status status-live">Live</span></div>
+          <p class="who">For US dental practices</p>
           <p class="value">When a patient cancels, text the opening to your waitlist in one tap. The first patient to reply YES is booked, and everyone else is told it was taken.</p>
+          <div class="actions">
+            <a class="btn btn-primary" href="https://dental.kentehq.com"><span>Open No-Show Recovery</span><span class="arrow" aria-hidden="true">↗</span></a>
+          </div>
           <p class="meta"><span class="domain">dental.kentehq.com</span></p>
         </li>
         <li class="product">
           <svg class="swatch" viewBox="0 0 40 2000" preserveAspectRatio="xMidYMin slice" aria-hidden="true" focusable="false"><rect width="40" height="2000" fill="url(#s-creator)"/></svg>
-          <div class="product-top"><h3>Gatekeeper</h3><span class="status">Opening soon</span></div>
-          <p class="who">For creators doing brand deals</p>
-          <p class="value">Sponsors review watermarked previews, sign your terms and fund escrow. The clean files unlock when the money lands.</p>
+          <div class="product-top"><h3>Gatekeeper</h3><span class="status status-live">Live</span></div>
+          <p class="who">For creators doing sponsor deals</p>
+          <p class="value">Sponsors review watermarked previews, sign your terms and fund escrow in cedis through Paystack. The clean files unlock when the money lands.</p>
+          <div class="actions">
+            <a class="btn btn-primary" href="https://creator.kentehq.com"><span>Open Gatekeeper</span><span class="arrow" aria-hidden="true">↗</span></a>
+          </div>
           <p class="meta"><span class="domain">creator.kentehq.com</span></p>
         </li>
         <li class="product">
           <svg class="swatch" viewBox="0 0 40 2000" preserveAspectRatio="xMidYMin slice" aria-hidden="true" focusable="false"><rect width="40" height="2000" fill="url(#s-gifts)"/></svg>
-          <div class="product-top"><h3>Gift Ledger</h3><span class="status">Opening soon</span></div>
-          <p class="who">For brands that gift product to creators</p>
+          <div class="product-top"><h3>Gift Ledger</h3><span class="status status-live">Live</span></div>
+          <p class="who">For Shopify brands that gift product to creators</p>
           <p class="value">Follow every PR gift from Shopify order to delivery to the creator's post, and see what each verified post cost you.</p>
+          <div class="actions">
+            <a class="btn btn-primary" href="https://gifts.kentehq.com"><span>Open Gift Ledger</span><span class="arrow" aria-hidden="true">↗</span></a>
+          </div>
           <p class="meta"><span class="domain">gifts.kentehq.com</span></p>
         </li>
       </ul>
@@ -356,7 +713,7 @@
     <section class="section facts" id="how-it-works" aria-labelledby="steps-title">
       <div class="section-head">
         <h2 id="steps-title">How Zoning Watchdog works</h2>
-        <p>Our live product, in four steps.</p>
+        <p>Our first product, in four steps.</p>
       </div>
       <ol class="steps">
         <li><h3>Create a free account</h3><p>Sign up at <a href="https://zoning.kentehq.com">zoning.kentehq.com</a>. There is a free plan, so you can try it before paying.</p></li>
@@ -374,7 +731,7 @@
       <dl class="fact-list">
         <div class="fact">
           <dt>Billing</dt>
-          <dd>Every product has a free plan and simple monthly subscriptions in US dollars. Payments are processed by <strong>Dodo Payments as merchant of record</strong>, and you can cancel any time from your account.</dd>
+          <dd>Four products have a free plan, and No-Show Recovery starts with a 14-day free trial. Paid plans are monthly or yearly subscriptions in US dollars, processed by <strong>Dodo Payments as merchant of record</strong>, and you can cancel any time from your account.</dd>
         </div>
         <div class="fact">
           <dt>Your data</dt>
@@ -407,11 +764,11 @@
         </details>
         <details>
           <summary><h3>Who are Kente HQ products for?</h3></summary>
-          <p>Kente HQ builds for people who run small businesses and want one job done well rather than a large suite of tools. Today that means real estate investors, with Zoning Watchdog. Products for merchants who sell on WhatsApp, dental practices, creators doing brand deals and brands that gift product to creators are opening soon.</p>
+          <p>Kente HQ builds for people who run small businesses and want one job done well rather than a large suite of tools: real estate investors with Zoning Watchdog, merchants in Ghana who sell on WhatsApp with Invoice Collector, US dental practices with No-Show Recovery, creators doing sponsor deals with Gatekeeper, and Shopify brands that gift product to creators with Gift Ledger.</p>
         </details>
         <details>
           <summary><h3>Which Kente HQ products are available today?</h3></summary>
-          <p>Zoning Watchdog is live at zoning.kentehq.com. Invoice Collector, No-Show Recovery, Gatekeeper and Gift Ledger are opening soon and have not opened yet. Each product is marked Live on this page when it opens.</p>
+          <p>All five are live and run in the browser: Zoning Watchdog at zoning.kentehq.com, Invoice Collector at invoices.kentehq.com, No-Show Recovery at dental.kentehq.com, Gatekeeper at creator.kentehq.com and Gift Ledger at gifts.kentehq.com.</p>
         </details>
         <details>
           <summary><h3>What does Zoning Watchdog do?</h3></summary>
@@ -422,12 +779,28 @@
           <p>Checking agendas yourself means visiting each city's website, opening every new agenda and reading it for items that matter, which costs nothing but takes time and is easy to miss. Google Alerts is free and useful for news, but it reports pages after Google indexes them rather than reading each agenda as it is posted. Zoning Watchdog does the agenda reading every hour and only alerts you on rezoning, variance and special use items that match your keywords.</p>
         </details>
         <details>
+          <summary><h3>What does Invoice Collector do?</h3></summary>
+          <p>Invoice Collector is for merchants in Ghana who sell on WhatsApp. You type an invoice in WhatsApp, and your customer gets a pay link, polite reminders every 48 hours and a receipt. Customers pay in Ghana cedis (GHS) through Paystack, and it works in Ghana only. It runs at invoices.kentehq.com and has a free plan.</p>
+        </details>
+        <details>
+          <summary><h3>What does No-Show Recovery do?</h3></summary>
+          <p>No-Show Recovery is for dental practices in the United States. When a patient cancels, you text the open slot to your waitlist in one tap; the first patient to reply YES is booked, and everyone else is told it was taken. It runs at dental.kentehq.com and starts with a 14-day free trial, no card needed.</p>
+        </details>
+        <details>
+          <summary><h3>What does Gatekeeper do?</h3></summary>
+          <p>Gatekeeper is escrow for creators doing sponsor deals. Sponsors review watermarked previews, sign your terms and fund escrow in Ghana cedis (GHS) through Paystack, and the clean files unlock when the money lands. It runs at creator.kentehq.com and has a free plan.</p>
+        </details>
+        <details>
+          <summary><h3>What does Gift Ledger do?</h3></summary>
+          <p>Gift Ledger is for Shopify brands that gift product to creators. It follows every PR gift from Shopify order to delivery to the creator's post, and shows what each verified post cost you. It runs at gifts.kentehq.com and has a free plan.</p>
+        </details>
+        <details>
           <summary><h3>How much do Kente HQ products cost?</h3></summary>
-          <p>Every Kente HQ product has a free plan. Paid plans are simple subscriptions in US dollars that renew monthly or yearly until you cancel, and each product lists its current prices on its own site, such as zoning.kentehq.com for Zoning Watchdog. We give 30 days' notice before a price changes.</p>
+          <p>Plan prices are in US dollars and renew monthly or yearly until you cancel. Zoning Watchdog: Scout is free, Investor is $49 a month or $490 a year, and Desk is $199 a month. Invoice Collector: Starter is free for 10 invoices a month, and Shop is $9 a month or $90 a year. No-Show Recovery: Front desk is $99 a month and Whole practice is $179 a month per location, with a 14-day free trial and no card needed. Gatekeeper: Solo is free with a 5% platform fee per funded deal, and Pro is $19 a month or $190 a year with a 2% fee. Gift Ledger: Starter is free for 25 gifts a month, Growth is $79 a month or $790 a year, and Scale is $199 a month. We give 30 days' notice before a price changes.</p>
         </details>
         <details>
           <summary><h3>Who processes payments for Kente HQ?</h3></summary>
-          <p>Dodo Payments is the merchant of record for Kente HQ subscriptions. That means Dodo Payments runs checkout, takes the payment and handles sales tax or VAT, and its terms apply to your purchase alongside ours.</p>
+          <p>Dodo Payments is the merchant of record for Kente HQ subscriptions. That means Dodo Payments runs checkout, takes the payment and handles sales tax or VAT, and its terms apply to your purchase alongside ours. Money that moves inside a product is separate: Invoice Collector customers pay merchants, and Gatekeeper sponsors fund deals, in Ghana cedis through Paystack.</p>
         </details>
         <details>
           <summary><h3>Can I cancel a Kente HQ subscription or get a refund?</h3></summary>
@@ -439,7 +812,7 @@
         </details>
         <details>
           <summary><h3>Which countries and currencies does Kente HQ support?</h3></summary>
-          <p>Kente HQ is based in Ghana and sells to customers worldwide. Subscription prices are in US dollars, and Dodo Payments handles checkout and local tax as merchant of record. Some products work with local data, such as the city agendas Zoning Watchdog reads, so check each product's site for what it covers.</p>
+          <p>Kente HQ is based in Ghana and sells to customers worldwide. Subscription prices are in US dollars, and Dodo Payments handles checkout and local tax as merchant of record. Some products are built for one place: Invoice Collector works in Ghana only, Gatekeeper deals are paid in Ghana cedis, No-Show Recovery is for US dental practices, and Zoning Watchdog covers the cities whose agendas it reads.</p>
         </details>
         <details>
           <summary><h3>How do I contact Kente HQ?</h3></summary>
@@ -466,10 +839,10 @@
       <span>Products</span>
       <ul class="footer-links">
         <li><a href="https://zoning.kentehq.com">Zoning Watchdog</a></li>
-        <li><span>Invoice Collector <small>(soon)</small></span></li>
-        <li><span>No-Show Recovery <small>(soon)</small></span></li>
-        <li><span>Gatekeeper <small>(soon)</small></span></li>
-        <li><span>Gift Ledger <small>(soon)</small></span></li>
+        <li><a href="https://invoices.kentehq.com">Invoice Collector</a></li>
+        <li><a href="https://dental.kentehq.com">No-Show Recovery</a></li>
+        <li><a href="https://creator.kentehq.com">Gatekeeper</a></li>
+        <li><a href="https://gifts.kentehq.com">Gift Ledger</a></li>
       </ul>
     </nav>
     <p class="legal-name">Kente HQ is a trading name of Accidental Genius LTD, registered in Ghana.</p>
